@@ -1,0 +1,68 @@
+CURADORIA DIARIA IA E DIREITO, 2026-10-16
+
+CABECALHO
+Data de coleta: 2026-10-16 (12:05 America/Sao_Paulo; 15:05 UTC)
+Janela aplicada: 7 dias (escalonamento 36h > 72h > 7 dias; ver AUDITORIA)
+Buscas WebSearch executadas: 14
+Feeds RSS consumidos com sucesso: 9 de 13
+Candidatos coletados: 45
+Candidatos apos filtro deterministico: 35
+Itens entregues: 3 de 3
+Distribuicao por categoria: (a) 0 / (b) 1 / (c) 1 / (d) 1
+Origem das fontes: midia tradicional 33% / Substack-RSS 67% (LawNext RSS e feed da API do arXiv) / social 0%
+
+
+1. Memorandum and Order on Motion for Sanctions, Aguilar v. The Crawford Group, Inc., No. 1:25-cv-12395-AK (D. Mass.)
+Fonte: U.S. District Court, District of Massachusetts (Doc. 155, via CourtListener/RECAP) | URL primaria: https://storage.courtlistener.com/recap/gov.uscourts.mad.288446/gov.uscourts.mad.288446.155.0.pdf
+Fonte secundaria: Massachusetts Lawyers Weekly, https://masslawyersweekly.com/2026/10/13/lawyer-ai-citations-pro-hac-vice-sanctions/ ; Vibe Graveyard, https://vibegraveyard.ai/story/aguilar-crawford-group-claude-citations-pro-hac-vice-revoked/ (publicado em 2026-10-15)
+Data de publicacao: 2026-09-25 (decisao); cobertura em 2026-10-13 e 2026-10-15
+Categoria: (b) erro ou fracasso documentado
+Sintese: A juiza Angel Kelley sancionou com base na Rule 11 o advogado californiano Blake Lindemann, admitido pro hac vice em acao de cobertura securitaria contra entidades da Enterprise. Segundo a ordem, cerca de metade das citacoes da oposicao a um motion to strike continha erro: Rodriguez v. Doral Mortgage Corp. (1st Cir. 1995) foi citado seis vezes para tese que o precedente nao enfrenta, havia citacoes literais inexistentes, uma referencia Westlaw ficticia e um caso que nao foi localizado em Westlaw, Lexis e Bloomberg. Duas oposicoes posteriores repetiram o padrao mesmo apos o pedido de sancao. A corte revogou a admissao pro hac vice e condenou o escritorio a pagar honorarios e custas dos reus limitados a US$ 10.000, com joint notice ate 2026-10-23 e status conference em 2026-11-09. Em declaracao juramentada (Doc. 135, 2026-04-11), o advogado afirmou ter usado "the highest-grade enterprise version of Claude" e acreditar que o tier enterprise tinha salvaguardas contra alucinacao; a ordem fala apenas em "AI software" e consigna que desconhecer a capacidade de a IA gerar citacoes falsas nao e escusa.
+Por que entrou: Caso concreto com decisao primaria acessivel e mecanica de falha detalhada, em que o erro dominante e misrepresentation de precedente real, nao apenas caso inventado. Documenta a premissa falsa de que tier enterprise de LLM generalista equivale a verificacao de citacao, gargalo central em qualquer pipeline de redacao juridica.
+
+
+2. Thomson Reuters Enterprise Centre GmbH v. ROSS Intelligence Inc., No. 25-2153 (3d Cir.), com cobertura LawNext "'No More Than an Ordinary Copyright Case': 3rd Circuit Unseals Its Opinion In Thomson Reuters Case Against ROSS"
+Fonte: U.S. Court of Appeals for the Third Circuit; LawNext (Bob Ambrogi) | URL primaria: https://www2.ca3.uscourts.gov/opinarch/252153p.pdf
+Fonte secundaria: https://www.lawnext.com/2026/10/no-more-than-an-ordinary-copyright-case-3rd-circuit-unseals-its-opinion-in-thomson-reuters-case-against-ross.html
+Data de publicacao: 2026-09-29 (acordao, Filed: Sept. 29, 2026); cobertura LawNext em 2026-10-12
+Categoria: (c) risco novo importante (regulatorio e de propriedade intelectual sobre dados de treino juridico)
+Sintese: Painel composto por Restrepo, Montgomery-Reeves (relatora) e Bove manteve a partial summary judgment do juiz Stephanos Bibas sobre 2.243 headnotes do Westlaw: as headnotes sao protegiveis (barra de originalidade de Feist) e o uso pela ROSS para treinar seu buscador juridico nao foi fair use. O acordao descreve que a ROSS contratou a LegalEase para produzir cerca de 25.000 memos de treino, redigidos a partir de headnotes, embora tivesse acesso as decisoes judiciais subjacentes ("ease is not a justification for copying"). Fatores decisivos: substituto comercial direto do Westlaw e existencia de um mercado de licenciamento de headnotes como dado de treino descrito como "rapidly developing". A corte limitou o alcance ao distinguir sistemas generativos (Bartz v. Anthropic; In re OpenAI) por a ROSS apenas retornar trechos de decisoes preexistentes. E a primeira decisao de corte federal de apelacao sobre treino de IA e fair use; a ROSS encerrou a plataforma em 2021.
+Por que entrou: Afeta diretamente quem constroi datasets de treino, eval ou indice RAG juridico a partir de material editorial (ementas, resumos, classificacoes) em vez da fonte primaria. O criterio "tinha acesso a fonte primaria e escolheu o atalho" e transponivel ao debate sobre ementarios e bases privadas no Brasil.
+
+
+3. Structural Segmentation for Brazilian Legal Document Retrieval
+Fonte: arXiv (cs.IR), preprint; autores Leandro Carisio Fernandes (Camara dos Deputados), Joao Alberto de Oliveira Lima e Hudson de Martim (Senado Federal), Eduardo Seiti de Oliveira e Roberto Lotufo (Unicamp), Jayr Pereira (Unicamp/UFCA) | URL primaria: https://arxiv.org/abs/2610.18622
+Data de publicacao: 2026-10-13
+Categoria: (d) solucao para gargalo em pipelines juridicos (chunking estrutural para retrieval em portugues juridico)
+Sintese: O estudo indexa atos normativos por unidades estruturais (artigos, capitulos e componentes nao normativos, como a justificacao de proposicoes) e mapeia o score para o documento por max-pooling dos chunks. Testa quatro representacoes em NormasTCU (14.469 atos do TCU, 46 queries) e Ulysses-RFCorpus (105.669 proposicoes da Camara, 693 queries), com BM25, text-embedding-3-small, Qwen3-Embedding-4B e jua-4B-mixed, medindo nDCG@10 e MRR. A segmentacao hierarquica multiplica o indice por 13 e 9 e eleva o nDCG@10 de todos os retrievers densos: no NormasTCU, +36% para text-embedding-3-small (0,263 para 0,358), +16% para jua-4B-mixed e +8% para Qwen3; no Ulysses, ganhos de 9% a 14%. BM25 nao se beneficia (0,364 para 0,342 no NormasTCU). Chunks de artigo enriquecidos apenas com metadados do documento igualam ou superam a hierarquia completa com indice menor, e remover o contexto reduz sempre o desempenho. Limitacao relatada: 32,65% do Ulysses nao segue a estrutura padrao e nao pode ser segmentado.
+Por que entrou: Resultado quantitativo, com datasets publicos e modelos nomeados, sobre chunking de texto juridico brasileiro, incluindo um embedding de dominio para portugues. Indica que metadados por chunk resolvem a maior parte do ganho sem parser hierarquico completo e que o ganho nao transfere para busca lexical.
+
+
+REVISAO ADVERSARIAL
+
+Item 1 (Aguilar). Fonte primaria: sim, a propria ordem (Doc. 155) e a declaracao do advogado (Doc. 135), ambas baixadas via curl com HTTP 200 e conteudo conferido por pdftotext (revogacao do pro hac vice, teto de US$ 10.000, "approximately half of the citations", datas de 2026-10-23 e 2026-11-09). Dominio: storage.courtlistener.com, repositorio RECAP do Free Law Project, sem typosquat. A identificacao do Claude vem exclusivamente da declaracao do advogado; a ordem nao nomeia a ferramenta nem conclui que o Claude gerou os erros, e nao ha manifestacao da Anthropic. Nao verificados em segunda fonte: autoria individual da materia da Massachusetts Lawyers Weekly [nao verificado] (pagina respondeu HTTP 200, byline nao extraida); a alegacao de que a oposicao foi protocolada em cinco horas vem do Vibe Graveyard e da materia da MLW, nao foi conferida no texto da ordem [nao verificado]. Vibe Graveyard e agregador sem autor individual identificado; usado so como sinalizador. Linguagem promocional: nenhuma. Categoria (b) resiste. Ressalva de janela: o fato e de 2026-09-25; entrou pela cobertura de 2026-10-13 e 2026-10-15. O caso consta da base de Damien Charlotin com data 2026-09-25 e AI Tool "Unidentified", coerente com a ordem.
+
+Item 2 (TR v. ROSS). Fonte primaria: acordao no dominio oficial ca3.uscourts.gov (HTTP 200, PDF de 371 KB), conferidos no texto: numero 25-2153, composicao do painel, "Filed: Sept. 29, 2026", "no more than an ordinary copyright case", "ease is not a justification for copying" e "rapidly developing". Autor da cobertura identificado (Bob Ambrogi, LawNext). Nao verificados em segunda fonte: a afirmacao da LawNext de que o acordao foi inicialmente emitido "under seal" [nao verificado no PDF]; a numeracao e a data de In re OpenAI (S.D.N.Y., 2026-09-01) citadas pela LawNext [nao verificado]; o numero de 25.000 memos e de 10 milhoes de opinioes vem da LawNext e foi parcialmente conferido (memos descritos no acordao, contagem nao conferida linha a linha) [nao verificado quanto ao numero exato]. Linguagem promocional: nenhuma; o titulo original da LawNext usa travessao, substituido por dois-pontos neste arquivo. Categoria (c) resiste, com a ressalva de que a propria corte restringiu o precedente a sistemas nao generativos. Ressalva de janela: acordao de 2026-09-29, fora dos 7 dias; entrou pela cobertura de 2026-10-12, dentro da janela.
+
+Item 3 (Segmentacao estrutural). Fonte primaria: preprint no arXiv (abs com HTTP 200; PDF baixado e lido). Autores e afiliacoes identificados no proprio PDF. Nao revisado por pares: nao consta venue no comentario do arXiv [nao verificado quanto a submissao]. Todos os numeros (tamanho das colecoes, nDCG@10, ganhos relativos, 32,65% nao segmentavel) foram conferidos no texto do PDF, mas nao ha replicacao independente nem segunda fonte. Linguagem promocional: nenhuma; o paper relata o resultado negativo para BM25. Categoria (d) resiste. Nao ha origem social.
+
+Descartes e substituicoes nesta revisao: nenhum item descartado; nenhuma URL deixou de resolver.
+
+
+AUDITORIA
+
+Janela: 36h produziu 1 item qualificado (Aguilar, via cobertura de 2026-10-15); 72h produziu 2 (inclui o preprint submetido em 2026-10-13 16:02 UTC, cerca de 71h antes da coleta, no limite da janela de 72h); 7 dias produziu 3 (inclui a cobertura LawNext de 2026-10-12). Nivel aplicado: 7 dias.
+
+Deduplicacao: curadorias/curadoria-ia-direito_2026-10-15.md ausente; o diretorio curadorias/ estava vazio no clone (primeiro arquivo do repositorio). Nenhuma deduplicacao contra dias anteriores foi possivel.
+
+Feeds que falharam: Stanford CodeX, HTTP 404 (pagina "Page not found"); Above the Law tag IA, HTTP 200 mas retornou HTML, 0 entradas parseadas; ConJur, HTTP 403 (desafio Cloudflare), compensado com busca site:conjur.com.br que retornou apenas resultados fora do dominio e sem itens na janela; Migalhas, HTTP 404. Feeds com sucesso: LawSites, LawNext (mesmo conteudo de LawSites), Adam Unikowsky (sem itens na janela), Damien Charlotin Substack (redireciona para artificialauthority.ai), 3 Geeks, Artificial Lawyer, JOTA, Volokh, Harvard Law Review Blog (sem itens na janela).
+
+Camada C: base de Damien Charlotin com "Last updated: 16 October 2026"; 8 casos com data entre 2026-10-09 e 2026-10-15, 7 de litigantes pro se e 1 de advogado (Glenn v. Absolute Resolutions, M.D. Fla., 2026-10-09). Hacker News: busca site:news.ycombinator.com nao retornou nenhuma pagina do dominio. Fonte adicional usada: API do arXiv (export.arxiv.org), consulta por legal/court/law combinada com retrieval/citation/hallucination/RAG.
+
+Descartes no filtro deterministico (10): Legal Innovators New York Sponsors (evento/patrocinio); Legal Innovators New York Speakers + Tickets (evento); Microsoft Launches Copilot for Legal, Brace for Impact! (manchete de impacto, lancamento sem auditoria); Microsoft Launches Copilot for Legal na LawNext (lancamento de fornecedor sem avaliacao independente); eBrevia Launches Command (lancamento de produto); Legora Seeks Centrality With 30+ Integrations (ecossistema de parcerias sem caso de uso medido); Harvey Launches Intake (lancamento de produto); useABI AI Associate (demo de fornecedor); Chariot Claims Raises $10M Series A (rodada de investimento); Introhive survey (pesquisa encomendada por fornecedor).
+
+Descartes na triagem qualitativa (principais): Microsoft Copilot for Legal: What Will Be the Fallout? (analise especulativa, sem dado); Old Problems, New Tools: Knowledge Strategy (opiniao de fundador de consultoria); From AI Tools to Agentic AI, A Roadmap (opiniao sem dado); Goodwin Partner Launches US AI-Native Law Firm Arm (anuncio sem metrica); 3 Geeks, GDS AI Summit (podcast de impressoes, sem dado verificavel); Damien Charlotin, AI & Law Stuff 2026-10-16 (ensaio sobre bajulacao de LLM em consultoria, sem caso novo com dado); Orin Kerr, Flock cameras e Quarta Emenda (palestra em video, sem texto ou decisao); JOTA, Bellizze do TSE proibe Meta de restringir alcance (moderacao de plataforma, fora do recorte IA e Direito estrito); 7 casos pro se da base Charlotin (advertencias sem novidade tecnica); Glenn v. Absolute Resolutions (advogado, mas decisao de 2026-10-09 no limite da janela e sem detalhe tecnico alem de duas citacoes); When Citations Mislead? PARCEL (arXiv 2610.10971, 2026-10-07, fora da janela de 7 dias); Legal-R1 (arXiv 2610.18611, benchmarks chineses, menor transferencia para o contexto BR do que o item 3); Legal RAG Bench (arXiv 2603.01710, marco de 2026, fora da janela); Daily Journal, AI errors by prosecutors reach California Supreme Court (2026-04-07, fora da janela, paywall); Jones Walker no Mondaq sobre prompt injection em peticoes (2026-08-25, fora da janela); TJSC multa por jurisprudencia falsa (2025-02-18, fora da janela); Law360, Atty ordered to pay $39K (data e conteudo nao acessiveis, USA Herald respondeu 403).
+
+Substituicoes: nenhuma.
+
+Seguranca: nenhum conteudo coletado continha instrucao dirigida ao agente; nenhuma acao fora do escopo foi executada.
