@@ -1,0 +1,7 @@
+# Normaliza para LF no repositorio e no checkout, em qualquer SO.
+# Sem isto, um clone no Windows com core.autocrlf=true reescreve as
+# curadorias com CRLF, e o pipeline de podcast passa a receber bytes
+# diferentes dos gerados (o prompt exige UTF-8 sem BOM e LF).
+*.md   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf

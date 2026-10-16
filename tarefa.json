@@ -1,0 +1,45 @@
+{
+  "_nota": "Configuracao declarada das tarefas agendadas da curadoria. O prompt de cada tarefa e o arquivo indicado em 'prompt', copiado literalmente. Ao editar uma tarefa em claude.ai/code/routines, atualize este arquivo e o prompt no mesmo commit.",
+  "atualizado_em": "2026-10-16",
+  "tarefas": [
+    {
+      "papel": "nuvem, fonte da verdade (em paralelo com a local ate o corte)",
+      "nome": "Curadoria ia direito nuvem",
+      "id": "trig_01QHwkuQ8GdJCRVfdtHizecA",
+      "cron": "CRON_TZ=America/Sao_Paulo 51 5 * * *",
+      "modelo": "claude-opus-5-5",
+      "modo_de_aprovacao": "auto",
+      "requer_computador": false,
+      "ambiente": "ambiente de nuvem da sessao de criacao (rede testada em 2026-10-16: 10 de 13 feeds com HTTP 200)",
+      "repositorio": "pbms01/curadoria-ia-direito",
+      "saida": "curadorias/curadoria-ia-direito_AAAA-MM-DD.md",
+      "prompt": "prompt/curadoria-nuvem.md",
+      "conectores_usados_pelo_prompt": [],
+      "conectores_alvo": [],
+      "criada_em": "2026-10-16"
+    },
+    {
+      "papel": "local, primaria ate o corte; depois, contingencia",
+      "nome": "Curadoria ia direito diaria",
+      "id": "trig_01Y5SAL99umEAfznfsL7SXsn",
+      "cron": "CRON_TZ=America/Sao_Paulo 0 6 * * *",
+      "modelo": "claude-opus-5",
+      "modo_de_aprovacao": "auto",
+      "requer_computador": true,
+      "computador": "desktop-3l0sta1 (Windows)",
+      "pastas": [
+        "C:\\Users\\pbm_s\\Ia_e_justica\\Agente de curadoria Anti-hype AI",
+        "C:\\Users\\pbm_s\\automacao_podcastia\\entrada"
+      ],
+      "prompt": "prompt/curadoria-local-v1.md",
+      "conectores_usados_pelo_prompt": [],
+      "criada_em": "2026-09-24"
+    }
+  ],
+  "conectores_anexados_por_padrao_em_2026-10-16": [
+    "Gmail", "Notion", "Zapier", "Codex", "Claude_Docs", "Google_Calendar",
+    "Scholar_Gateway", "Google_Drive", "Figma", "Exa", "Hugging_Face",
+    "Claude_Code_Remote", "Cloudflare_Developer_Platform", "Gamma", "Vercel"
+  ],
+  "_nota_conectores": "As duas tarefas receberam todos os conectores da conta por padrao, com aprovacao automatica, embora o prompt nao use nenhum. Como a coleta ingere conteudo nao confiavel (RSS, X, Reddit, HN), o alvo e zero conectores. A remocao e feita no formulario de edicao da tarefa em claude.ai/code/routines."
+}
