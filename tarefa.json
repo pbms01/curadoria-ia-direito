@@ -1,6 +1,6 @@
 {
   "_nota": "Configuracao declarada das tarefas agendadas da curadoria. O prompt de cada tarefa e o arquivo indicado em 'prompt', copiado literalmente. Ao editar uma tarefa em claude.ai/code/routines, atualize este arquivo e o prompt no mesmo commit.",
-  "atualizado_em": "2026-10-16",
+  "atualizado_em": "2026-11-11",
   "tarefas": [
     {
       "papel": "nuvem, fonte da verdade (em paralelo com a local ate o corte)",
@@ -34,6 +34,24 @@
       "prompt": "prompt/curadoria-local-v1.md",
       "conectores_usados_pelo_prompt": [],
       "criada_em": "2026-09-24"
+    },
+    {
+      "papel": "nuvem, prepara o post diario do Instagram a partir da curadoria e publica so apos aprovacao na sessao",
+      "nome": "Post Instagram curadoria",
+      "id": "trig_01Qf9tVPsZjbqAB48Bt95KH2",
+      "cron": "CRON_TZ=America/Sao_Paulo 7 6 * * *",
+      "modelo": "claude-fable-5-2",
+      "modo_de_aprovacao": "auto (a trava de publicacao e do prompt: ETAPA 5 encerra o turno e a ETAPA 6 exige 'publicar' do usuario)",
+      "notificacao": "push ao fim da execucao",
+      "requer_computador": false,
+      "repositorio": "pbms01/curadoria-ia-direito",
+      "entrada": "curadorias/curadoria-ia-direito_AAAA-MM-DD.md",
+      "saida": "instagram/posts/AAAA-MM-DD/ (post.json, slide-01..05.jpg, legenda.txt, publicado.json)",
+      "prompt": "prompt/instagram-nuvem.md",
+      "conectores_usados_pelo_prompt": ["Zapier (Instagram for Business, conta 17841420480513479)"],
+      "conectores_alvo": ["Zapier"],
+      "dependencias_externas": "ManyChat (comentario 'eu quero' -> DM com o link do grupo), configurado fora deste repositorio",
+      "criada_em": "2026-11-11"
     }
   ],
   "conectores_anexados_por_padrao_em_2026-10-16": [
