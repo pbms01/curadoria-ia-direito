@@ -1,0 +1,80 @@
+{
+  "data": "2026-11-11",
+  "item_escolhido": 1,
+  "criterio": "Unico item com ato judicial e consequencia direta para a pratica: prova produzida por detector de IA em procedimento sancionador. Os itens 2 e 3 sao preprints de RAG, relevantes para quem constroi pipeline, nao para o advogado medio.",
+  "paragrafo": "Uma corte federal dos EUA (E.D. Mich., juíza Laurie J. Michelson, decisão de 09/11/2026) deixou prosseguir o pedido de discriminação intencional de uma aluna da Universidade de Michigan punida por suposto uso de IA em três trabalhos. A acusação se apoiou em software de detecção e em textos que uma IA gerou a partir do esboço da própria aluna, usados como termo de comparação, mecânica que ela qualificou como circular. Com diagnóstico de ansiedade generalizada e TOC, ela sustenta que seu estilo meticuloso foi lido como marca de máquina, e a corte considerou plausível que a universidade tenha desconsiderado o registro clínico. Para quem advoga, o caso documenta em ato judicial o uso de detector de IA como prova em procedimento sancionador e indica que ignorar a evidência contrária pode fundar responsabilidade, raciocínio transponível a processos disciplinares e à valoração de prova digital. Ressalva: é decisão em motion to dismiss, em que os fatos alegados são tomados como verdadeiros, sem julgamento de mérito; os pedidos de devido processo, acomodação e retaliação foram extintos.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão judicial · EUA",
+      "titulo": "Acusada de usar IA por um detector. *A Justiça deixou a ação seguir.*",
+      "rodape": "Doe v. Univ. of Michigan · 09/11/2026",
+      "assinatura": true
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "A prova contra a aluna: textos que uma IA gerou *a partir do esboço dela.*",
+      "contexto": "A Universidade de Michigan a puniu por suposto uso de IA. Ela chama a comparação de circular. Uma corte federal deixou a ação seguir."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Três trabalhos, três acusações",
+      "blocos": [
+        "Uma aluna da Universidade de Michigan foi punida por suposto uso de IA em três trabalhos.",
+        "Com diagnóstico de ansiedade generalizada e TOC, ela sustenta que seu estilo meticuloso foi lido como *marca de máquina*."
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Um pedido sobreviveu: *discriminação intencional*",
+      "cartoes": [
+        {
+          "t": "Mantido",
+          "d": "Discriminação intencional (ADA e Rehabilitation Act). Para a corte, é plausível que a universidade tenha desconsiderado o registro clínico ao concluir pelo uso de IA.",
+          "destaque": true
+        },
+        {
+          "t": "Extintos",
+          "d": "Devido processo, acomodação razoável e retaliação."
+        }
+      ],
+      "ressalva": "Decisão em motion to dismiss: os fatos alegados são tomados como verdadeiros nesta fase. Não houve julgamento de mérito.",
+      "fonte": "ECF 43, caso 2:26-cv-10451 (E.D. Mich.), juíza Laurie J. Michelson. PDF no CourtListener.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Detector de IA como prova: *três perguntas*",
+      "pontos": [
+        {
+          "t": "O método é circular?",
+          "d": "Segundo a autora, comparar o texto com o que a IA gera a partir do esboço do próprio acusado é circular."
+        },
+        {
+          "t": "A prova contrária foi examinada?",
+          "d": "Para a corte, desconsiderar a explicação clínica documentada torna plausível a discriminação."
+        },
+        {
+          "t": "Vale para o seu caso?",
+          "d": "O raciocínio alcança processos disciplinares e a valoração de prova digital produzida por ferramenta de detecção."
+        }
+      ],
+      "envio": "Envie a quem atua em processo disciplinar"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "texto": "Hoje: detector de IA usado como prova para punir. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão",
+      "funil": "*66* itens triados. *3* entregues."
+    }
+  ],
+  "legenda": "Uma universidade puniu uma aluna por suposto uso de IA. A prova: um detector e textos que a própria IA gerou a partir do esboço dela.\n\nA aluna tem diagnóstico de ansiedade e TOC e diz que o estilo meticuloso que foi lido como máquina é só o jeito dela de escrever. Uma corte federal dos EUA deixou seguir o pedido de discriminação intencional.\n\nAinda não é mérito: é decisão preliminar, com os fatos alegados tomados como verdadeiros. Mas o caso interessa a quem atua em processo disciplinar ou lida com prova digital, porque mostra o que acontece quando o resultado de um detector pesa mais do que a evidência contrária.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #direitodigital #provadigital #inteligenciaartificial #advocacia"
+}
