@@ -1,8 +1,8 @@
-Uma estudante foi punida pela Universidade de Michigan por suposto uso de IA em três trabalhos. Segundo a petição, o instrutor usou software de detecção e anexou textos que um modelo gerou a partir do esboço dela. Ela apresentou laudos de ansiedade generalizada e TOC e sustenta que o estilo meticuloso vem dessas condições. Uma corte federal dos EUA manteve o pedido de discriminação por deficiência.
+A Universidade de Michigan puniu uma estudante após três acusações de uso de IA. Segundo a petição, o instrutor usou software de detecção e anexou textos que um modelo gerou com o esboço dela. Ela diz ter ansiedade generalizada e TOC, apresentou laudos e sustenta que o estilo meticuloso vem dessas condições. Uma corte federal dos EUA manteve o pedido de discriminação por deficiência contra a universidade.
 
-A decisão é de fase inicial (motion to dismiss): os fatos são alegações tomadas como verdadeiras, não provadas. A corte não avaliou a confiabilidade do detector, que a decisão não nomeia. Os pedidos de devido processo, falta de acomodação e retaliação foram extintos.
+A decisão é de fase inicial (motion to dismiss): os fatos são alegações tomadas como verdadeiras, não provadas. A corte não avaliou a confiabilidade do detector, que a decisão não nomeia. Devido processo, falta de acomodação e retaliação foram extintos.
 
-Para quem advoga, o caso discute saída de detector de IA usada como prova de autoria em procedimento sancionador. Nesta fase, passou a tese antidiscriminatória, não a de devido processo.
+Para quem advoga, o caso discute o uso alegado de saída de detector como prova de autoria em procedimento sancionador. Nesta fase, passou a tese antidiscriminatória, não a de devido processo.
 
 Esta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.
 

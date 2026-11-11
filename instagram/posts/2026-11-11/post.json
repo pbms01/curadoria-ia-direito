@@ -1,8 +1,8 @@
 {
   "data": "2026-11-11",
   "item_escolhido": 1,
-  "criterio": "Critério 1: é o único dos três itens que é ato judicial, uma decisão de corte federal dos EUA sobre sanção apoiada em detecção de IA; o item 2 é um seguro privado e o item 3 é preprint de engenharia. Os critérios 2 e 3 reforçam a escolha, porque o caso dá a quem advoga uma tese probatória sobre detector de IA em procedimento sancionador.",
-  "paragrafo": "Em 9 de novembro de 2026, a juíza Laurie J. Michelson, da corte federal do Distrito Leste de Michigan (EUA), acolheu em parte o pedido de extinção da ação de uma estudante que a Universidade de Michigan puniu por suposto uso de IA em três trabalhos. Segundo a petição, o instrutor usou software de detecção e anexou textos de comparação que um modelo gerou a partir do esboço da aluna e dos comentários do professor. Ela apresentou laudos de ansiedade generalizada e TOC e sustenta que tom e estrutura meticulosa decorrem dessas condições. A corte extinguiu os pedidos de devido processo, falta de acomodação e retaliação e manteve o de discriminação por deficiência contra a universidade, por ser plausível a alegação de laudos desconsiderados. Para quem advoga, o caso discute saída de detector usada como prova de autoria em procedimento sancionador e indica que, nesta fase, passou a tese antidiscriminatória, não a processual. Ressalva: é decisão em motion to dismiss, com fatos alegados e não provados; a corte não avaliou a confiabilidade do detector, que a decisão não nomeia.",
+  "criterio": "Critério 1: é o único dos três itens que é ato judicial, uma decisão de corte federal dos EUA sobre sanção por suposto uso de IA em que, segundo a petição, houve uso de detector; o item 2 é um seguro privado e o item 3 é preprint de engenharia. Os critérios 2 e 3 reforçam a escolha, porque o caso mostra a quem advoga qual via de contestação passou nesta fase.",
+  "paragrafo": "Em 9 de novembro de 2026, a juíza Laurie J. Michelson, da corte federal do Distrito Leste de Michigan (EUA), acolheu em parte o pedido de extinção da ação de uma estudante que a Universidade de Michigan puniu após três acusações de uso de IA. Segundo a petição, o instrutor usou software de detecção e anexou textos que um modelo gerou a partir do esboço da aluna e dos comentários do professor. Ela diz ter ansiedade generalizada e TOC, apresentou laudos e sustenta que tom e estrutura meticulosa decorrem dessas condições. A corte extinguiu os pedidos de devido processo, falta de acomodação e retaliação e manteve o de discriminação por deficiência contra a universidade, por ser plausível a alegação de laudos desconsiderados. Para quem advoga, o caso discute o uso alegado de saída de detector como prova de autoria em procedimento sancionador e indica que, nesta fase, passou a tese antidiscriminatória, não a processual. Ressalva: é decisão em motion to dismiss, com fatos alegados, não provados; a corte não avaliou a confiabilidade do detector, que a decisão não nomeia.",
   "slides": [
     {
       "tipo": "capa",
@@ -14,16 +14,16 @@
     {
       "tipo": "achado",
       "rotulo": "O ponto central",
-      "titulo": "Aluna alega: uma IA recebeu o esboço dela *e o texto gerado serviu de prova.*",
-      "contexto": "A Universidade de Michigan puniu a estudante por suposto uso de IA em três trabalhos. Uma corte federal dos EUA manteve parte da ação."
+      "titulo": "Aluna alega: instrutor usou como prova textos de IA *gerados com o esboço dela.*",
+      "contexto": "A Universidade de Michigan puniu a estudante após três acusações de uso de IA. Uma corte federal dos EUA manteve parte da ação."
     },
     {
       "tipo": "texto",
       "rotulo": "O caso",
-      "titulo": "Sanção no histórico, laudos na defesa",
+      "titulo": "As sanções e a resposta da aluna",
       "blocos": [
-        "As sanções: probation disciplinar anotada no histórico, reescrita dos trabalhos e um ensaio reflexivo.",
-        "Ela apresentou laudos de ansiedade generalizada e TOC. Sustenta que o tom e a estrutura meticulosa *decorrem dessas condições.*"
+        "Probation disciplinar anotada no histórico, reescrita de trabalhos e um ensaio reflexivo.",
+        "A aluna diz ter ansiedade generalizada e TOC, apresentou laudos e sustenta que o estilo meticuloso *vem dessas condições.*"
       ]
     },
     {
@@ -41,7 +41,7 @@
           "d": "Devido processo (imunidade qualificada dos réus individuais, sem precedente claro contra acusar com detecção de IA), falta de acomodação e retaliação."
         }
       ],
-      "ressalva": "Fase inicial (motion to dismiss): fatos alegados são tomados como verdadeiros, não provados. A corte não avaliou o detector, que a decisão não nomeia.",
+      "ressalva": "Fase inicial (motion to dismiss): os fatos são alegados, não provados. A corte não julgou a confiabilidade do detector, que a decisão não nomeia.",
       "fonte": "ECF No. 43, caso 2:26-cv-10451 (E.D. Mich.), juíza Laurie J. Michelson, 09/11/2026. PDF no CourtListener.",
       "fonte_primaria": true
     },
@@ -76,5 +76,5 @@
       "rodape": "Curadoria Anti-Hype por Pedro Mourão"
     }
   ],
-  "legenda": "Uma estudante foi punida pela Universidade de Michigan por suposto uso de IA em três trabalhos. Segundo a petição, o instrutor usou software de detecção e anexou textos que um modelo gerou a partir do esboço dela. Ela apresentou laudos de ansiedade generalizada e TOC e sustenta que o estilo meticuloso vem dessas condições. Uma corte federal dos EUA manteve o pedido de discriminação por deficiência.\n\nA decisão é de fase inicial (motion to dismiss): os fatos são alegações tomadas como verdadeiras, não provadas. A corte não avaliou a confiabilidade do detector, que a decisão não nomeia. Os pedidos de devido processo, falta de acomodação e retaliação foram extintos.\n\nPara quem advoga, o caso discute saída de detector de IA usada como prova de autoria em procedimento sancionador. Nesta fase, passou a tese antidiscriminatória, não a de devido processo.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #provadigital #direitodigital #inteligenciaartificial #advocacia"
+  "legenda": "A Universidade de Michigan puniu uma estudante após três acusações de uso de IA. Segundo a petição, o instrutor usou software de detecção e anexou textos que um modelo gerou com o esboço dela. Ela diz ter ansiedade generalizada e TOC, apresentou laudos e sustenta que o estilo meticuloso vem dessas condições. Uma corte federal dos EUA manteve o pedido de discriminação por deficiência contra a universidade.\n\nA decisão é de fase inicial (motion to dismiss): os fatos são alegações tomadas como verdadeiras, não provadas. A corte não avaliou a confiabilidade do detector, que a decisão não nomeia. Devido processo, falta de acomodação e retaliação foram extintos.\n\nPara quem advoga, o caso discute o uso alegado de saída de detector como prova de autoria em procedimento sancionador. Nesta fase, passou a tese antidiscriminatória, não a de devido processo.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #provadigital #direitodigital #inteligenciaartificial #advocacia"
 }
