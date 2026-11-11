@@ -1,0 +1,80 @@
+{
+  "data": "2026-11-11",
+  "item_escolhido": 1,
+  "criterio": "Critério 1: é o único dos três itens que é ato judicial, uma decisão de corte federal dos EUA sobre sanção apoiada em detecção de IA; o item 2 é um seguro privado e o item 3 é preprint de engenharia. Os critérios 2 e 3 reforçam a escolha, porque o caso dá a quem advoga uma tese probatória sobre detector de IA em procedimento sancionador.",
+  "paragrafo": "Em 9 de novembro de 2026, a juíza Laurie J. Michelson, da corte federal do Distrito Leste de Michigan (EUA), acolheu em parte o pedido de extinção da ação de uma estudante que a Universidade de Michigan puniu por suposto uso de IA em três trabalhos. Segundo a petição, o instrutor usou software de detecção e anexou textos de comparação que um modelo gerou a partir do esboço da aluna e dos comentários do professor. Ela apresentou laudos de ansiedade generalizada e TOC e sustenta que tom e estrutura meticulosa decorrem dessas condições. A corte extinguiu os pedidos de devido processo, falta de acomodação e retaliação e manteve o de discriminação por deficiência contra a universidade, por ser plausível a alegação de laudos desconsiderados. Para quem advoga, o caso discute saída de detector usada como prova de autoria em procedimento sancionador e indica que, nesta fase, passou a tese antidiscriminatória, não a processual. Ressalva: é decisão em motion to dismiss, com fatos alegados e não provados; a corte não avaliou a confiabilidade do detector, que a decisão não nomeia.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão judicial · EUA",
+      "titulo": "Punida por suposto uso de IA. *Juíza mantém parte da ação.*",
+      "assinatura": true,
+      "rodape": "Doe v. Regents (E.D. Mich.) · 09/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Aluna alega: uma IA recebeu o esboço dela *e o texto gerado serviu de prova.*",
+      "contexto": "A Universidade de Michigan puniu a estudante por suposto uso de IA em três trabalhos. Uma corte federal dos EUA manteve parte da ação."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Sanção no histórico, laudos na defesa",
+      "blocos": [
+        "As sanções: probation disciplinar anotada no histórico, reescrita dos trabalhos e um ensaio reflexivo.",
+        "Ela apresentou laudos de ansiedade generalizada e TOC. Sustenta que o tom e a estrutura meticulosa *decorrem dessas condições.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Ação *mantida em parte*",
+      "cartoes": [
+        {
+          "t": "Mantido",
+          "d": "Discriminação por deficiência (leis ADA e Rehabilitation Act) contra a universidade. Para a corte, é plausível a alegação de que os laudos foram desconsiderados.",
+          "destaque": true
+        },
+        {
+          "t": "Extintos",
+          "d": "Devido processo (imunidade qualificada dos réus individuais, sem precedente claro contra acusar com detecção de IA), falta de acomodação e retaliação."
+        }
+      ],
+      "ressalva": "Fase inicial (motion to dismiss): fatos alegados são tomados como verdadeiros, não provados. A corte não avaliou o detector, que a decisão não nomeia.",
+      "fonte": "ECF No. 43, caso 2:26-cv-10451 (E.D. Mich.), juíza Laurie J. Michelson, 09/11/2026. PDF no CourtListener.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Detector de IA: *qual tese passou?*",
+      "pontos": [
+        {
+          "t": "Detector como prova de autoria",
+          "d": "Segundo a petição, saída de detector e textos comparativos gerados por IA sustentaram a acusação em procedimento sancionador."
+        },
+        {
+          "t": "A via que passou nesta fase",
+          "d": "A tese de devido processo foi extinta. Seguiu a de discriminação por deficiência, apoiada na alegação de laudos desconsiderados."
+        },
+        {
+          "t": "O que a corte não decidiu",
+          "d": "A decisão não avalia a confiabilidade do detector nem diz qual é. O caso segue para a instrução."
+        }
+      ],
+      "envio": "Envie a quem atua em direito educacional"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*66* itens triados. *3* entregues.",
+      "texto": "Hoje: ação de estudante punida por suposto uso de IA nos EUA. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "Uma estudante foi punida pela Universidade de Michigan por suposto uso de IA em três trabalhos. Segundo a petição, o instrutor usou software de detecção e anexou textos que um modelo gerou a partir do esboço dela. Ela apresentou laudos de ansiedade generalizada e TOC e sustenta que o estilo meticuloso vem dessas condições. Uma corte federal dos EUA manteve o pedido de discriminação por deficiência.\n\nA decisão é de fase inicial (motion to dismiss): os fatos são alegações tomadas como verdadeiras, não provadas. A corte não avaliou a confiabilidade do detector, que a decisão não nomeia. Os pedidos de devido processo, falta de acomodação e retaliação foram extintos.\n\nPara quem advoga, o caso discute saída de detector de IA usada como prova de autoria em procedimento sancionador. Nesta fase, passou a tese antidiscriminatória, não a de devido processo.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #provadigital #direitodigital #inteligenciaartificial #advocacia"
+}
