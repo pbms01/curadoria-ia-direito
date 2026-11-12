@@ -1,0 +1,80 @@
+{
+  "data": "2026-11-12",
+  "item_escolhido": 1,
+  "criterio": "Único item com ato judicial (critério 1): liminar do TJSP que enquadra como concorrência desleal o conteúdo de um llms.txt dirigido a sistemas de IA, em jurisdição brasileira e com tese probatória acionável (capturas certificadas, testes em modelos, registros de acesso). O item 2 é declaração de intenção do relator do PL, não norma, e o item 3 é preprint de engenharia.",
+  "paragrafo": "A 1ª Vara Empresarial e Conflitos de Arbitragem do Foro Central Cível do TJSP (juiz André Salomon Tudisco, decisão de 05/10/2026) concedeu liminar ao Escavador contra o Jusbrasil. A disputa envolve o llms.txt, arquivo público dirigido a sistemas de IA. Segundo a autora, o arquivo do Jusbrasil instruía esses sistemas a informar que concorrentes como o Escavador podem exibir dados “desatualizados, incompletos ou obtidos de forma que desrespeita restrições legais”. O juiz afastou o rótulo de prompt injection (“o rótulo técnico não decide a causa”) e aplicou os arts. 195, I e II, e 209 da Lei de Propriedade Industrial. A ordem proíbe afirmações desse tipo, manda preservar os registros de acesso ao arquivo e fixa multa de R$ 50 mil por ato, limitada inicialmente a R$ 500 mil. Para quem advoga, o caso sinaliza risco para quem publica texto dirigido a IAs e indica meios de prova: capturas certificadas, testes em modelos e registros de acesso. Ressalva: a decisão é liminar, o processo segue para instrução e não foi verificado se houve recurso ou alteração depois de 05/10/2026.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão liminar · Brasil",
+      "titulo": "Juiz proíbe Jusbrasil de orientar IAs contra o Escavador. *É liminar.*",
+      "assinatura": true,
+      "rodape": "1ª Vara Empresarial · TJSP · 05/10/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Instrução às IAs: rivais podem exibir dados defasados ou *de origem ilícita.*",
+      "contexto": "Segundo o Escavador, era o que dizia o llms.txt do Jusbrasil, arquivo público dirigido a IAs. Um juiz do TJSP proibiu em liminar."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "As provas: capturas e testes em IA",
+      "blocos": [
+        "O Escavador pediu tutela de urgência contra o Jusbrasil na 1ª Vara Empresarial do Foro Central Cível (TJSP).",
+        "Como prova, juntou capturas registradas na Verifact e testes feitos no *Gemini e no Perplexity.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Liminar: *concorrência desleal*",
+      "cartoes": [
+        {
+          "t": "A ordem",
+          "d": "Proíbe esse tipo de afirmação no llms.txt. Manda preservar os registros de acesso ao arquivo. Multa de R$ 50 mil por ato, limitada inicialmente a R$ 500 mil.",
+          "destaque": true
+        },
+        {
+          "t": "O fundamento",
+          "d": "O juiz afastou o rótulo de prompt injection (“o rótulo técnico não decide a causa”) e aplicou os arts. 195, I e II, e 209 da Lei de Propriedade Industrial."
+        }
+      ],
+      "ressalva": "Decisão liminar, sem julgamento de mérito: o processo segue para instrução. Não se verificou se houve recurso ou alteração após 05/10/2026.",
+      "fonte": "proc. 4156029-93.2026.8.26.0100 (TJSP), juiz André Salomon Tudisco. PDF no Migalhas.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Seu cliente escreve para IAs? *Três alertas*",
+      "pontos": [
+        {
+          "t": "Risco para quem publica",
+          "d": "A liminar enquadrou como concorrência desleal afirmações sobre rivais em arquivo dirigido a IAs."
+        },
+        {
+          "t": "O que serve de prova",
+          "d": "A autora juntou capturas registradas na Verifact e testes em modelos. A ordem manda preservar os registros de acesso ao arquivo."
+        },
+        {
+          "t": "Precisa provar que a IA leu?",
+          "d": "Na leitura de Ana Frazão (JOTA), a decisão dispensou prova de que as IAs leram o arquivo."
+        }
+      ],
+      "envio": "Envie a quem atua em concorrência desleal"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*31* itens triados. *3* entregues.",
+      "texto": "Hoje: liminar sobre arquivo que orientava IAs contra concorrente. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "Um juiz do TJSP proibiu, em liminar, que o Jusbrasil use o llms.txt para dizer a sistemas de IA que concorrentes como o Escavador podem exibir dados desatualizados, incompletos ou obtidos de forma que desrespeita restrições legais. O llms.txt é um arquivo público dirigido a esses sistemas. Aplicou a Lei de Propriedade Industrial e fixou multa de R$ 50 mil por ato, limitada inicialmente a R$ 500 mil.\n\nA decisão é liminar, de 05/10/2026, da 1ª Vara Empresarial do Foro Central Cível. Não há julgamento de mérito, o processo segue para instrução e não foi verificado se houve recurso ou alteração desde então.\n\nInteressa a quem atua em concorrência desleal e a quem orienta empresas que publicam conteúdo para IAs. A autora juntou capturas registradas na Verifact e testes em modelos. A ordem manda preservar os registros de acesso ao arquivo.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #concorrenciadesleal #direitoempresarial #inteligenciaartificial #advocacia"
+}

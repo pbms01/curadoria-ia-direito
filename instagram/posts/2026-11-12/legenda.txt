@@ -1,0 +1,9 @@
+Um juiz do TJSP proibiu, em liminar, que o Jusbrasil use o llms.txt para dizer a sistemas de IA que concorrentes como o Escavador podem exibir dados desatualizados, incompletos ou obtidos de forma que desrespeita restrições legais. O llms.txt é um arquivo público dirigido a esses sistemas. Aplicou a Lei de Propriedade Industrial e fixou multa de R$ 50 mil por ato, limitada inicialmente a R$ 500 mil.
+
+A decisão é liminar, de 05/10/2026, da 1ª Vara Empresarial do Foro Central Cível. Não há julgamento de mérito, o processo segue para instrução e não foi verificado se houve recurso ou alteração desde então.
+
+Interessa a quem atua em concorrência desleal e a quem orienta empresas que publicam conteúdo para IAs. A autora juntou capturas registradas na Verifact e testes em modelos. A ordem manda preservar os registros de acesso ao arquivo.
+
+Esta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.
+
+#iajuridica #concorrenciadesleal #direitoempresarial #inteligenciaartificial #advocacia
