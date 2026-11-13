@@ -1,0 +1,80 @@
+{
+  "data": "2026-11-13",
+  "item_escolhido": 1,
+  "criterio": "Critério 1: é o único item que é ato judicial (ordem do High Court of Madras, com registro criminal e bloqueio de contas); os itens 2 e 3 são preprints de engenharia do mesmo grupo. A jurisdição é indiana e a leitura para a prática brasileira é inferência, registrada como ressalva.",
+  "paragrafo": "O High Court of Madras, na Índia (bancada de Madurai, juízes G.R. Swaminathan e M.D. Sumathi, ordem de 10/11/2026), registrou que o Estado de Tamil Nadu comprou para bibliotecas públicas, com dinheiro público, livros falsamente atribuídos a autores reais. Um deles foi denunciado como falso pelo economista a quem era atribuído. O tribunal mandou registrar ocorrência criminal (FIR), bloquear as contas da editora, retirar os livros suspeitos e informar os valores gastos e os servidores envolvidos. Ao interpretar a regra estadual de bibliotecas, afirmou que obras geradas por IA e plagiadas se enquadram na vedação. Para quem advoga, a ordem mostra conteúdo gerado por IA tratado como critério de inidoneidade em compra pública, em caso com consequência penal e patrimonial. Ressalva: a ordem não atribui geração por IA a títulos específicos, descreve plágio e autoria falsa; o valor gasto e o desfecho da audiência de 11/11 não foram verificados; a cópia lida, hospedada pela MediaNama, não foi confrontada com o portal oficial. A decisão é indiana, e o paralelo com bases de documentos de IA jurídica é inferência.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão judicial · Índia",
+      "titulo": "Obra gerada por IA em acervo público? *Tribunal indiano diz que não.*",
+      "assinatura": true,
+      "rodape": "Madras HC, Cont. P(MD) 3763/2026 · 10/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Um Estado da Índia comprou livros atribuídos a quem *não os escreveu.*",
+      "contexto": "Eram para bibliotecas públicas. O High Court of Madras mandou registrar ocorrência criminal e afirmou que a regra do acervo veda obra gerada por IA."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "A origem: uma ordem de 2024",
+      "blocos": [
+        "O processo apura o descumprimento de ordem de 2024 sobre compras de livros para bibliotecas públicas de Tamil Nadu.",
+        "Entre as obras, textos atribuídos a um poeta e um livro que o economista apontado como autor *denunciou como falso.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Uma regra de 1950 alcança *obra gerada por IA*",
+      "cartoes": [
+        {
+          "t": "A interpretação",
+          "d": "Para o tribunal, o critério de \"gosto duvidoso\" da Regra 18(4) das normas de bibliotecas vale para não ficção e abrange obras geradas por IA e plagiadas.",
+          "destaque": true
+        },
+        {
+          "t": "As medidas",
+          "d": "Registro criminal imediato (FIR), bloqueio das contas da editora, retirada dos livros suspeitos e declaração juramentada de gastos e servidores envolvidos."
+        }
+      ],
+      "ressalva": "A ordem não aponta títulos gerados por IA: descreve plágio e autoria falsa. Valor gasto e desfecho da audiência de 11/11 não foram verificados.",
+      "fonte": "Cont. P(MD) 3763/2026, Madras HC. Cópia integral na MediaNama, não no portal oficial.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Quem responde por *conteúdo falso no acervo?*",
+      "pontos": [
+        {
+          "t": "Risco penal e patrimonial",
+          "d": "A ordem determinou registro criminal (FIR) e bloqueio das contas da editora, e exige a identificação dos servidores envolvidos."
+        },
+        {
+          "t": "IA como critério de inidoneidade",
+          "d": "Para o tribunal, obra gerada por IA cai, como o plágio, na vedação da regra de bibliotecas."
+        },
+        {
+          "t": "E a base da sua ferramenta?",
+          "d": "Leitura da curadoria, não do tribunal: documento de autoria falsa também pode contaminar a base consultada por uma IA jurídica."
+        }
+      ],
+      "envio": "Envie a quem atua em licitações e contratos"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*34* itens triados. *3* entregues.",
+      "texto": "Hoje: obra gerada por IA vedada em acervo público na Índia. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "Segundo o High Court of Madras, o Estado indiano de Tamil Nadu comprou para bibliotecas públicas livros atribuídos a quem não os escreveu. O tribunal mandou registrar ocorrência criminal, bloquear as contas da editora e retirar os livros suspeitos. Afirmou ainda que a regra estadual de bibliotecas veda obras geradas por IA e plagiadas.\n\nRessalva: a ordem não atribui geração por IA a títulos específicos, descreve plágio e autoria falsa. Valor gasto e desfecho da audiência de 11/11 não foram verificados. Cópia lida na MediaNama, não confrontada com o portal oficial.\n\nPara quem atua em licitações e contratos: conteúdo gerado por IA foi tratado como critério de inidoneidade em compra pública, em caso com consequência penal e patrimonial. A decisão é indiana, e o paralelo com bases de documentos de IA jurídica é inferência, não parte da ordem.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #licitacoes #direitoadministrativo #inteligenciaartificial #advocacia"
+}
