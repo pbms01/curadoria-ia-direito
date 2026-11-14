@@ -1,0 +1,9 @@
+Uma psicóloga forense usou o ChatGPT ao preparar o laudo que a acusação apresentou em um processo criminal na Califórnia. Em audiência, admitiu ter perguntado ao modelo o que seria considerado nexo causal e disse apagar tudo após o uso. O laudo tinha um erro factual. Em 04/11/2026, a Corte de Apelação negou o pedido da defesa e manteve o laudo.
+
+As ressalvas: a decisão não é publicada e não tem força de precedente. A Corte afirmou, em tese, que gerar a opinião pericial com IA seria hoje técnica científica nova, sujeita a prova de confiabilidade, mas aceitou a avaliação do juízo de origem de que o uso foi apenas organizacional.
+
+Para quem advoga com prova pericial, o caso mostra que, sem registro dos prompts, a disputa se resolve pela credibilidade do perito.
+
+Esta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.
+
+#iajuridica #provapericial #direitodigital #inteligenciaartificial #advocacia

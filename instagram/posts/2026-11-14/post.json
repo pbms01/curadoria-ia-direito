@@ -1,0 +1,80 @@
+{
+  "data": "2026-11-14",
+  "item_escolhido": 1,
+  "criterio": "Único item que atende ao critério 1: é ato judicial (decisão da Corte de Apelação da Califórnia) sobre laudo pericial feito com apoio de LLM, com consequência direta para quem produz ou impugna prova pericial. O item 2 é entrevista sobre risco, sem ato nem caso comprovado, e o item 3 é ensaio.",
+  "paragrafo": "A Corte de Apelação da Califórnia manteve, em 04/11/2026, um laudo pericial preparado com apoio do ChatGPT. Em processo por furto em San Diego, a ré pediu o desvio do caso para tratamento de saúde mental, e a acusação usou o laudo de uma psicóloga forense para afastar o nexo causal. A perita declarou no laudo o uso de IA. Em audiência, admitiu ter perguntado ao modelo o que seria nexo causal e disse apagar tudo após o uso. O laudo continha erro factual sobre internação psiquiátrica anterior. A Corte afirmou que usar IA para gerar a opinião pericial seria, hoje, técnica científica nova, sujeita a prova de confiabilidade, mas respeitou a avaliação do juízo de origem e negou o pedido da defesa. Para quem advoga, o caso mostra que, sem registro dos prompts, a disputa se resolve pela credibilidade do perito. Ressalvas: a decisão não é publicada nem tem força de precedente; o enquadramento foi afirmado em tese; o índice de 98% de texto de IA na seção de nexo é alegação do perito da defesa, não do tribunal.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão judicial · EUA",
+      "titulo": "Perita usou ChatGPT e apagou os prompts. *Laudo mantido.*",
+      "assinatura": true,
+      "rodape": "Cal. Ct. App., D088222 · 04/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Uma perita perguntou ao ChatGPT o que seria *nexo causal.*",
+      "contexto": "Era o ponto do laudo que a acusação usou em processo criminal na Califórnia. Ela disse apagar os prompts. A Corte de Apelação manteve o laudo."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Um laudo com erro factual",
+      "blocos": [
+        "Processo por furto em San Diego. A ré pediu o desvio do caso para tratamento de saúde mental.",
+        "O laudo negava registro de internação psiquiátrica anterior. A perita atribuiu o erro a omissão nas notas dadas ao *ChatGPT.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Laudo mantido, *com um aviso*",
+      "cartoes": [
+        {
+          "t": "Pedido negado",
+          "d": "A Corte de Apelação negou o pedido da defesa (writ of mandate). Respeitou a avaliação do juízo de origem, que deu crédito à perita: a IA só teria organizado o material.",
+          "destaque": true
+        },
+        {
+          "t": "O aviso",
+          "d": "Usar IA para gerar a opinião pericial seria, hoje, técnica científica nova, que exige prova de confiabilidade (teste Kelly/Frye). A Corte chamou de preocupantes os indícios de dependência."
+        }
+      ],
+      "ressalva": "Decisão não publicada, sem força de precedente (regra 8.1115(a) da Califórnia). O enquadramento como técnica nova foi afirmado em tese.",
+      "fonte": "D088222, Court of Appeal da Califórnia (4º Distrito, Div. 1), 04/11/2026. PDF oficial em courts.ca.gov.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Laudo com IA: *três perguntas ao perito*",
+      "pontos": [
+        {
+          "t": "A IA foi usada para quê?",
+          "d": "A perita declarou o uso no laudo e disse, em audiência, tratar o ChatGPT como parceiro de raciocínio, até em questões jurídicas."
+        },
+        {
+          "t": "Onde estão os prompts?",
+          "d": "Ela disse apagar tudo após o uso. Sem o registro, a disputa se resolveu pela credibilidade da perita."
+        },
+        {
+          "t": "Os fatos do laudo conferem?",
+          "d": "O erro sobre a internação anterior foi identificado quando a defesa interrogou a perita."
+        }
+      ],
+      "envio": "Envie a quem atua em processos com perícia"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*76* itens triados. *3* entregues.",
+      "texto": "Hoje: perita usou ChatGPT no laudo e a corte manteve a prova. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "Uma psicóloga forense usou o ChatGPT ao preparar o laudo que a acusação apresentou em um processo criminal na Califórnia. Em audiência, admitiu ter perguntado ao modelo o que seria considerado nexo causal e disse apagar tudo após o uso. O laudo tinha um erro factual. Em 04/11/2026, a Corte de Apelação negou o pedido da defesa e manteve o laudo.\n\nAs ressalvas: a decisão não é publicada e não tem força de precedente. A Corte afirmou, em tese, que gerar a opinião pericial com IA seria hoje técnica científica nova, sujeita a prova de confiabilidade, mas aceitou a avaliação do juízo de origem de que o uso foi apenas organizacional.\n\nPara quem advoga com prova pericial, o caso mostra que, sem registro dos prompts, a disputa se resolve pela credibilidade do perito.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #provapericial #direitodigital #inteligenciaartificial #advocacia"
+}
