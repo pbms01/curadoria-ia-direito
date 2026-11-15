@@ -1,0 +1,9 @@
+O STF manteve a tese do Tema 977: a polícia pode preservar, por backup, dados e metadados de celular apreendido sem mandado e sem consentimento, com justificação posterior. Analisar o conteúdo segue dependente de consentimento expresso ou de decisão judicial. A Defensoria Pública do Rio alegou que as ferramentas forenses não separam copiar de examinar. O plenário rejeitou os embargos.
+
+Ressalva: relator, unanimidade, data e número do processo constam apenas de notícia da ConJur. Não foi localizada nota oficial do STF nem segunda fonte.
+
+Para quem advoga: segundo o relator, abusos podem ser constatados por perícia depois. Na leitura da curadoria, isso deixa com a defesa a tarefa de auditar logs, hashes e cadeia de custódia da extração.
+
+Esta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.
+
+#iajuridica #provadigital #processopenal #direitodigital #advocaciacriminal

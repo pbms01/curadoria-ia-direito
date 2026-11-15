@@ -1,0 +1,80 @@
+{
+  "data": "2026-11-15",
+  "item_escolhido": 2,
+  "criterio": "Os itens 1 e 2 são atos judiciais (critério 1). O critério 2 desempata a favor do item 2: decisão do plenário do STF em repercussão geral (Tema 977), com consequência probatória direta para a defesa. O item 1 é sentença polonesa não definitiva e o item 3 é artigo de opinião.",
+  "paragrafo": "O plenário do STF, em julgamento virtual encerrado em 13/11/2026 e relatado pelo ministro Dias Toffoli, rejeitou por unanimidade os segundos embargos de declaração da Defensoria Pública do Rio de Janeiro no ARE 1.042.075 (Tema 977 da repercussão geral). Fica mantido que a polícia pode preservar, por backup, dados e metadados de celular apreendido sem mandado e sem consentimento, com justificação posterior. A análise do conteúdo segue dependente de consentimento expresso ou de decisão judicial. A Defensoria sustentou que as ferramentas forenses atuais não separam coleta, exame e visualização. O relator respondeu que extrair sem tratar é possível e que abusos podem ser constatados por perícia depois. O tribunal também recusou fixar procedimento técnico e exigir bolsas bloqueadoras de sinal. Para quem advoga, a consequência, na leitura da curadoria, é que o controle passa a ser pericial e posterior, e a defesa precisa auditar logs, hashes e cadeia de custódia da extração. Ressalva: relator, unanimidade, data e número do processo constam apenas de notícia da ConJur; não foi localizada nota oficial do STF nem segunda fonte.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão judicial · Brasil",
+      "titulo": "Polícia pode copiar celular apreendido sem mandado. *O STF manteve.*",
+      "assinatura": true,
+      "rodape": "ARE 1.042.075 · Tema 977 · 13/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Defensoria: ferramenta forense não separa copiar de examinar. *STF rejeitou.*",
+      "contexto": "O Supremo manteve: a polícia preserva por backup os dados de celular apreendido, sem mandado. Para o relator, abuso se constata por perícia, depois."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Tema 977, segundos embargos",
+      "blocos": [
+        "Em sessão virtual encerrada em 13/11/2026, o plenário rejeitou os embargos por unanimidade. Relator: ministro Dias Toffoli.",
+        "O tribunal recusou fixar procedimento técnico na tese. Usar *bolsas bloqueadoras de sinal* fica a critério de policiais e peritos."
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "O que ficou mantido *no Tema 977*",
+      "cartoes": [
+        {
+          "t": "Preservar",
+          "d": "A polícia pode copiar por backup dados e metadados do celular apreendido, sem mandado e sem consentimento, com justificação posterior.",
+          "destaque": true
+        },
+        {
+          "t": "Analisar",
+          "d": "O exame do conteúdo segue dependente de consentimento expresso ou de decisão judicial (art. 7º, III, e art. 10, § 2º, da Lei 12.965/2014)."
+        }
+      ],
+      "ressalva": "Relator, unanimidade, data e número do ARE constam só da ConJur. Não foi localizada nota oficial do STF nem segunda fonte.",
+      "fonte": "ARE 1.042.075 (Tema 977), STF, rel. min. Dias Toffoli. Lido em notícia da ConJur de 14/11/2026.",
+      "fonte_primaria": false
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Celular apreendido: *o que a defesa audita*",
+      "pontos": [
+        {
+          "t": "Logs, hashes e custódia",
+          "d": "Na leitura da curadoria, o controle passa a ser pericial e posterior. Cabe à defesa auditar logs, hashes e cadeia de custódia."
+        },
+        {
+          "t": "Houve análise sem ordem?",
+          "d": "Examinar o conteúdo exige consentimento expresso ou decisão judicial. Segundo o relator, abuso pode ser constatado por perícia."
+        },
+        {
+          "t": "O aparelho foi isolado da rede?",
+          "d": "O STF não exigiu bolsa bloqueadora de sinal. O isolamento fica a critério de policiais e peritos."
+        }
+      ],
+      "envio": "Envie a quem atua em defesa criminal"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*76* itens triados. *3* entregues.",
+      "texto": "Hoje: STF mantém backup de celular apreendido sem mandado. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "O STF manteve a tese do Tema 977: a polícia pode preservar, por backup, dados e metadados de celular apreendido sem mandado e sem consentimento, com justificação posterior. Analisar o conteúdo segue dependente de consentimento expresso ou de decisão judicial. A Defensoria Pública do Rio alegou que as ferramentas forenses não separam copiar de examinar. O plenário rejeitou os embargos.\n\nRessalva: relator, unanimidade, data e número do processo constam apenas de notícia da ConJur. Não foi localizada nota oficial do STF nem segunda fonte.\n\nPara quem advoga: segundo o relator, abusos podem ser constatados por perícia depois. Na leitura da curadoria, isso deixa com a defesa a tarefa de auditar logs, hashes e cadeia de custódia da extração.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #provadigital #processopenal #direitodigital #advocaciacriminal"
+}
