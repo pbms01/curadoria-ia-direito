@@ -1,0 +1,80 @@
+{
+  "data": "2026-11-16",
+  "item_escolhido": 1,
+  "criterio": "Os três itens são atos judiciais (critério 1), mas o item 1 é o de efeito mais direto na prática: a corte devolveu o recurso e atribuiu ao representante o dever de verificar as citações. Os critérios 2 e 3 confirmam a escolha: o dever é transponível, como inferência, e acionável; o item 2 é liminar sobre deepfake político e o item 3 depende da exceção de fronteira dos EUA e não envolve IA.",
+  "paragrafo": "A Suprema Corte da Ucrânia devolveu um recurso de cassação porque os quatro precedentes citados pelo advogado não existiam, segundo o jornal jurídico SUD.UA, em matéria de 16/11/2026. O caso (n. 523/9632/24) é uma disputa de família sobre a convivência de um pai com o filho menor. Ao conferir o registro oficial, a corte constatou que em nenhum dos quatro processos havia decisão sua e que os números pertenciam a outros assuntos: contrato, cobrança de dívida, infração de trânsito e atividade empresarial sem registro. A decisão é de 26/03/2026. A corte declarou que não se opõe ao uso de IA em peças, mas atribuiu ao representante o dever de verificar se as decisões existem, a numeração e a correspondência das teses ao caso. Corrigidas as falhas, o recurso foi reapresentado e admitido. Para quem advoga, o caso mostra um erro que a checagem da existência do número não detecta. Ressalva: a decisão foi lida apenas no SUD.UA, sem conferência no registro oficial nem segunda fonte. O uso de IA não foi confessado: é inferência da corte e da publicação.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão judicial · Ucrânia",
+      "titulo": "Advogado citou quatro decisões que não existem. *Recurso devolvido.*",
+      "assinatura": true,
+      "rodape": "Caso n. 523/9632/24 · decisão de 26/03/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Suprema Corte da Ucrânia: os 4 números citados existiam. As decisões, *não.*",
+      "contexto": "Um advogado citou quatro precedentes em recurso. No registro oficial, os números levavam a outros assuntos, como dívida e infração de trânsito."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Disputa de família em Odessa",
+      "blocos": [
+        "Um pai discute a convivência com o filho menor. Seu advogado alegou que a apelação ignorou conclusões da Suprema Corte.",
+        "A decisão da Suprema Corte é de 26/03/2026. O jornal jurídico ucraniano SUD.UA a noticiou em *16/11/2026*."
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "A corte não se opõe à IA. *Exige conferência.*",
+      "cartoes": [
+        {
+          "t": "Recurso devolvido",
+          "d": "Fundamento de cassação mal definido (art. 389 e art. 393, parte 4, § 4, do CPC ucraniano). Corrigido e reapresentado, o recurso foi admitido.",
+          "destaque": true
+        },
+        {
+          "t": "Dever de verificar",
+          "d": "Segundo a corte, cabe ao representante conferir se as decisões citadas existem, se a numeração está correta e se as teses correspondem ao caso."
+        }
+      ],
+      "ressalva": "Decisão lida só no SUD.UA: o registro oficial não foi consultado. O uso de IA não foi confessado: é inferência da corte e da matéria.",
+      "fonte": "Caso 523/9632/24, Suprema Corte da Ucrânia, 26/03/2026. Lido em matéria do SUD.UA de 16/11/2026.",
+      "fonte_primaria": false
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Citou precedente? *Confira três pontos.*",
+      "pontos": [
+        {
+          "t": "A decisão existe?",
+          "d": "Segundo a corte, em nenhum dos quatro processos citados havia decisão da Suprema Corte."
+        },
+        {
+          "t": "O número é desse caso?",
+          "d": "Segundo a corte, os números eram de outros assuntos. Para a curadoria, checar só a existência do número não detecta esse erro."
+        },
+        {
+          "t": "A tese corresponde ao caso?",
+          "d": "A corte não se opôs ao uso de IA, mas atribuiu ao representante o dever de conferir. Aplicar ao Brasil é inferência da curadoria."
+        }
+      ],
+      "envio": "Envie a quem atua em contencioso"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*62* itens triados. *3* entregues.",
+      "texto": "Hoje: recurso devolvido por citar quatro decisões inexistentes. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "A Suprema Corte da Ucrânia devolveu um recurso de cassação em que o advogado citou quatro precedentes. Ao conferir o registro oficial, a corte constatou que em nenhum dos quatro processos havia decisão sua. Os números existiam, mas eram de outros assuntos: contrato, dívida, infração de trânsito e atividade empresarial sem registro. Corrigido e reapresentado, o recurso foi admitido.\n\nRessalva: a decisão é de 26/03/2026 e foi lida apenas em matéria do jornal jurídico SUD.UA, de 16/11/2026, sem conferência no registro oficial nem segunda fonte. O uso de IA não foi confessado: é inferência da corte e da publicação.\n\nPara quem advoga: a corte disse não se opor ao uso de IA em peças, mas atribuiu ao representante o dever de verificar se a decisão existe, a numeração e se a tese corresponde ao caso. Aplicar o raciocínio ao Brasil é leitura da curadoria.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #inteligenciaartificial #advocacia #processocivil #direitodigital"
+}
