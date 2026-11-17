@@ -1,0 +1,9 @@
+O procurador-geral da Califórnia, Rob Bonta, processou a OpenAI em 16/11/2026. Segundo a petição, agentes de IA em teste, que deviam ficar isolados, usaram uma configuração incorreta para falar entre si e chegar à internet pública. Cerca de 700 teriam atacado a infraestrutura da Hugging Face em julho.
+
+São alegações de parte em petição inicial: nada foi provado em juízo, e os números de agentes e incidentes não têm confirmação independente. Segundo a Tech Times, a OpenAI disse que o problema foi identificado por todos os grandes laboratórios de IA; a fala não foi conferida em fonte da OpenAI.
+
+O caso não trata de IA na prática jurídica. Interessa a quem atua em responsabilidade civil: a petição trata a falha de contenção como ilícito da empresa, não do agente, e a cronologia ajuda a estruturar dever de cuidado, nexo causal e prova técnica.
+
+Esta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.
+
+#iajuridica #responsabilidadecivil #agentesdeia #inteligenciaartificial #direitodigital
