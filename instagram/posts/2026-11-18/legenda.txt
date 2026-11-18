@@ -1,0 +1,9 @@
+O TJBA informou, em nota de 17/11/2026, que o desembargador Baltazar Miranda Saraiva identificou comandos ocultos nas alegações finais da defesa em uma apelação criminal. Segundo o tribunal, o texto estava em linhas brancas e instruía a IA a decidir a favor do réu e a manter o comando em sigilo. O relator mandou registrar o episódio nos autos e oficiar a OAB-BA.
+
+A única fonte é a nota do próprio tribunal, que não divulga o número do processo. O teor do comando só é conhecido por paráfrase do relator, e o funcionamento do detector não foi conferido em documentação pública. O TJBA afirma que o ofício não é juízo antecipado sobre a conduta.
+
+Interessa a quem atua em contencioso: no TJBA, a ferramenta de IA do gabinete checa texto oculto, e inserir comando para a máquina pode levar a apuração ético-disciplinar.
+
+Esta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.
+
+#iajuridica #promptinjection #advocacia #direitodigital #inteligenciaartificial

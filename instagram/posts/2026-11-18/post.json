@@ -1,0 +1,80 @@
+{
+  "data": "2026-11-18",
+  "item_escolhido": 1,
+  "criterio": "Unico item com ato judicial de efeito direto na pratica do advogado (criterio 1): o relator determinou registro nos autos e oficio a OAB-BA para apuracao etico-disciplinar. E jurisdicao brasileira (criterio 2) e traz risco acionavel (criterio 3). O item 2 e preprint e o item 3 e litigio contratual nos EUA sem decisao.",
+  "paragrafo": "O Tribunal de Justiça da Bahia (TJBA) informou, em nota de 17/11/2026, que o desembargador Baltazar Miranda Saraiva, relator de apelação criminal, identificou comandos ocultos nas alegações finais da defesa. Segundo o tribunal, o texto estava em linhas brancas, invisível na leitura comum, e instruía a IA a apresentar decisão favorável ao réu e a manter o comando em sigilo. A detecção coube ao Elos IA, ferramenta do TJBA que apoia o gabinete e detecta prompt injection, a inserção de instruções escondidas para manipular a máquina. O relator determinou o registro nos autos e ofício à OAB-BA para apuração ético-disciplinar. Para quem advoga, o caso indica que, no TJBA, peças passam por ferramenta de IA que checa texto oculto e que a conduta pode gerar apuração disciplinar. Ressalva: a única fonte é a nota do tribunal, que não divulga o número do processo; o teor do comando só é conhecido por paráfrase do relator, o funcionamento do detector não foi conferido em documentação pública e o TJBA afirma que o ofício não é juízo antecipado sobre a conduta.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Ato judicial · TJBA",
+      "titulo": "TJBA detecta comando oculto para IA em peça. *Caso vai à OAB.*",
+      "assinatura": true,
+      "rodape": "Nota oficial do TJBA · 17/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "No TJBA, texto em linhas brancas instruía a IA a *favorecer o réu.*",
+      "contexto": "Segundo o tribunal, o comando estava nas alegações finais da defesa em processo criminal e pedia o próprio sigilo. A IA do gabinete o detectou."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Como o comando foi encontrado",
+      "blocos": [
+        "O relator, desembargador Baltazar Miranda Saraiva, analisava apelação criminal. As alegações finais vinham da primeira instância.",
+        "Segundo o TJBA, o gabinete usa o Elos IA, ferramenta do tribunal que detecta prompt injection, o *comando escondido para a IA.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Registro nos autos e *ofício à OAB-BA*",
+      "cartoes": [
+        {
+          "t": "O que o relator fez",
+          "d": "Determinou o registro do episódio nos autos e o envio de ofício à OAB-BA para apuração ético-disciplinar.",
+          "destaque": true
+        },
+        {
+          "t": "A orientação prévia",
+          "d": "Em 14/11/2026, o TJBA divulgou a Nota Técnica nº 01/2026 do Cijeba, com orientações a magistrados e servidores sobre prompt injection."
+        }
+      ],
+      "ressalva": "Fonte única: nota do TJBA, sem confirmação independente. O comando só é conhecido por paráfrase do relator. O ofício não é juízo antecipado.",
+      "fonte": "Nota da Agência de Notícias do TJBA (tjba.jus.br), 17/11/2026. Número do processo não divulgado.",
+      "fonte_primaria": false
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Texto oculto em peça: *qual é o seu risco?*",
+      "pontos": [
+        {
+          "t": "Risco ético-disciplinar",
+          "d": "O relator determinou ofício à OAB-BA para apuração da conduta. Segundo o TJBA, isso não é juízo antecipado."
+        },
+        {
+          "t": "Onde o comando se esconde",
+          "d": "A nota técnica divulgada pelo TJBA cita texto branco sobre fundo branco, fonte minúscula e propriedades do arquivo."
+        },
+        {
+          "t": "A IA do escritório também lê",
+          "d": "Quem usa IA para ler peças de terceiros fica exposto ao mesmo risco. Texto oculto e metadados pedem checagem antes da leitura."
+        }
+      ],
+      "envio": "Envie a quem atua em contencioso"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*44* itens triados. *3* entregues.",
+      "texto": "Hoje: TJBA detecta comando oculto para IA e oficia a OAB-BA. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "O TJBA informou, em nota de 17/11/2026, que o desembargador Baltazar Miranda Saraiva identificou comandos ocultos nas alegações finais da defesa em uma apelação criminal. Segundo o tribunal, o texto estava em linhas brancas e instruía a IA a decidir a favor do réu e a manter o comando em sigilo. O relator mandou registrar o episódio nos autos e oficiar a OAB-BA.\n\nA única fonte é a nota do próprio tribunal, que não divulga o número do processo. O teor do comando só é conhecido por paráfrase do relator, e o funcionamento do detector não foi conferido em documentação pública. O TJBA afirma que o ofício não é juízo antecipado sobre a conduta.\n\nInteressa a quem atua em contencioso: no TJBA, a ferramenta de IA do gabinete checa texto oculto, e inserir comando para a máquina pode levar a apuração ético-disciplinar.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #promptinjection #advocacia #direitodigital #inteligenciaartificial"
+}
