@@ -1,0 +1,9 @@
+Um preprint publicado no arXiv em 16/11/2026 trata do problema inverso ao deepfake: a prova digital autêntica descartada porque a fabricação realista se tornou plausível. O autor, da Universidade de Teerã, chama de dúvida sintética (synthetic doubt) a objeção de que o item pode ter sido gerado por IA e propõe um teste em três etapas para o Tribunal Penal Internacional.
+
+É preprint de autor único, sem revisão por pares e sem dados empíricos. Não traz caso de dúvida sintética já decidido pelo TPI, e as obras citadas não foram conferidas fora do artigo. O paralelo com a cadeia de custódia do CPP (arts. 158-A a 158-F) é inferência da curadoria.
+
+Interessa a quem atua com prova digital: pela proposta, quem alega “pode ser IA” precisa de motivo específico ao caso, e detector de mídia sintética entra como elemento de contexto, não como prova que decide sozinha.
+
+Esta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.
+
+#iajuridica #provadigital #deepfake #processopenal #direitodigital

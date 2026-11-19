@@ -1,0 +1,80 @@
+{
+  "data": "2026-11-19",
+  "item_escolhido": 1,
+  "criterio": "Nenhum dos três itens é ato judicial, sanção, norma ou decisão administrativa (critério 1), o que abre espaço para preprint. O item 1 vence nos critérios 2 e 3: traz tese probatória sobre distribuição do ônus na impugnação de prova digital, com paralelo apontado pela curadoria com a cadeia de custódia do CPP. O item 2 é resultado de engenharia para quem constrói pipeline e o item 3 é anúncio de fornecedor com números não verificados de forma independente.",
+  "paragrafo": "Um preprint publicado no arXiv em 16/11/2026 (2611.21455), de Seyed Mohammad Sadegh Dashti, da Universidade de Teerã, trata do problema inverso ao deepfake: a prova digital autêntica descartada porque a fabricação realista se tornou plausível. O autor chama de dúvida sintética (synthetic doubt) a objeção processual de que um item digital pode ter sido gerado ou manipulado por IA. Com recorte no Estatuto de Roma, propõe um teste em três etapas: o proponente faz demonstração básica de autenticidade e proveniência; quem objeta articula motivo específico ao caso; a Câmara faz revisão de confiabilidade proporcional. Metadados de proveniência e detectores de mídia sintética entram como elementos de contexto, sem decidir a questão. Para quem advoga, o texto oferece uma tese sobre distribuição do ônus ao impugnar ou defender prova audiovisual. Ressalva: é preprint de autor único, sem revisão por pares e sem dados empíricos; não traz caso de dúvida sintética já decidido pelo TPI; as obras citadas não foram conferidas fora do artigo; o paralelo com a cadeia de custódia do CPP (arts. 158-A a 158-F) é inferência da curadoria.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Preprint · arXiv",
+      "titulo": "“Pode ser IA” contra prova autêntica. *Quem prova o quê?*",
+      "assinatura": true,
+      "rodape": "arXiv 2611.21455 · 16/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "O problema inverso ao deepfake: prova autêntica *descartada sob alegação de IA.*",
+      "contexto": "Preprint de autor da Universidade de Teerã chama essa objeção de dúvida sintética e propõe um teste para o Tribunal Penal Internacional."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O estudo",
+      "titulo": "O caso que ancora o debate",
+      "blocos": [
+        "Em 2017, vídeos de rede social sustentaram um pedido de mandado de prisão no Tribunal Penal Internacional (TPI).",
+        "O recorte é o Estatuto de Roma: ônus da acusação (art. 66) e garantias do art. 67 como *limites.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A proposta",
+      "titulo": "Um teste para *“pode ser IA”*",
+      "cartoes": [
+        {
+          "t": "As três etapas",
+          "d": "1) O proponente faz demonstração básica de autenticidade e proveniência. 2) Quem objeta articula motivo específico ao caso. 3) A Câmara faz revisão de confiabilidade proporcional.",
+          "destaque": true
+        },
+        {
+          "t": "Detector e metadados",
+          "d": "Metadados de proveniência e saídas de detectores de mídia sintética entram como elementos de contexto. Não decidem a questão sozinhos."
+        }
+      ],
+      "ressalva": "Preprint de autor único, sem revisão por pares nem dados. Sem caso de dúvida sintética já decidido pelo TPI. Citações não conferidas fora do artigo.",
+      "fonte": "arXiv 2611.21455 (cs.CY), S. M. S. Dashti, Univ. de Teerã. PDF lido em arxiv.org.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Sua prova digital resiste a *“pode ser IA”?*",
+      "pontos": [
+        {
+          "t": "Objeção genérica ou específica?",
+          "d": "Pela proposta, quem objeta articula motivo específico ao caso. A alegação genérica de “pode ser IA” não supera o limiar."
+        },
+        {
+          "t": "Detector é indício, não prova",
+          "d": "Para o autor, saídas de detectores de mídia sintética e metadados de proveniência são elementos de contexto, não decisivos."
+        },
+        {
+          "t": "E no processo penal brasileiro?",
+          "d": "A curadoria vê paralelo com a cadeia de custódia do CPP (arts. 158-A a 158-F). É inferência: o recorte é o Estatuto de Roma."
+        }
+      ],
+      "envio": "Envie a quem atua em casos com prova digital"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*77* itens triados. *3* entregues.",
+      "texto": "Hoje: a objeção “pode ser IA” contra prova digital autêntica. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "Um preprint publicado no arXiv em 16/11/2026 trata do problema inverso ao deepfake: a prova digital autêntica descartada porque a fabricação realista se tornou plausível. O autor, da Universidade de Teerã, chama de dúvida sintética (synthetic doubt) a objeção de que o item pode ter sido gerado por IA e propõe um teste em três etapas para o Tribunal Penal Internacional.\n\nÉ preprint de autor único, sem revisão por pares e sem dados empíricos. Não traz caso de dúvida sintética já decidido pelo TPI, e as obras citadas não foram conferidas fora do artigo. O paralelo com a cadeia de custódia do CPP (arts. 158-A a 158-F) é inferência da curadoria.\n\nInteressa a quem atua com prova digital: pela proposta, quem alega “pode ser IA” precisa de motivo específico ao caso, e detector de mídia sintética entra como elemento de contexto, não como prova que decide sozinha.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #provadigital #deepfake #processopenal #direitodigital"
+}
