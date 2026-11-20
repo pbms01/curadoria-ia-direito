@@ -1,0 +1,80 @@
+{
+  "data": "2026-11-20",
+  "item_escolhido": 1,
+  "criterio": "Único item que é ato judicial com sanção (critério 1): a corte advertiu o Estado e mandou verificar toda citação antes do protocolo, o que traduz um dever para quem peticiona. O item 2 é projeto de lei ainda não aprovado e voltado a juízes, e o item 3 é preprint sobre prova acadêmica.",
+  "paragrafo": "A High Court de Madhya Pradesh, na Índia (juiz Vivek Kumar Singh, decisão de 17/11/2026), advertiu o próprio Estado por citar um julgado que não existe. Ao defender a demissão de um subinspetor interino, feita sem inquérito disciplinar, o Estado invocou, em resposta firmada sob juramento, um precedente identificado por nome de caso e referência de repertório. O juiz registrou que o caso não existe e que a referência corresponde a outro julgado, sobre suspensão de pena em apelação criminal. Concluiu que houve uso cego de ferramentas de IA, mandou o gabinete do Advocate General verificar toda citação antes do protocolo e anulou a demissão. Para quem advoga, o caso documenta um erro que a conferência superficial não detectaria: a referência existe, mas leva a outro processo. Ressalva: o uso de IA é inferência do juiz, não admissão do Estado; a correspondência da referência não foi conferida em repertório; a decisão foi lida em cópia hospedada em banco de dados de terceiro, não no portal do tribunal; não houve sanção pecuniária; a leitura para a prática brasileira é inferência.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão judicial · Índia",
+      "titulo": "Estado cita julgado que não existe. *Juiz aponta uso cego de IA.*",
+      "assinatura": true,
+      "rodape": "WP 27922/2024 · Madhya Pradesh · 17/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Nome de caso inventado, referência real: a citação era de *outro julgado.*",
+      "contexto": "Foi o que um juiz da Índia apontou em peça do Estado de Madhya Pradesh. Ele concluiu que houve uso cego de IA e advertiu o Estado."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Demitido um dia após a suspensão",
+      "blocos": [
+        "Um subinspetor interino foi demitido em 27/05/2024, sem inquérito disciplinar, com base no art. 311(2)(b) da Constituição indiana.",
+        "Na resposta, firmada sob juramento, o Estado citou o julgado inexistente para sustentar que não cabia *reexame de prova.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Advertência ao Estado e *ordem de verificação*",
+      "cartoes": [
+        {
+          "t": "Sobre a citação",
+          "d": "Advertência estrita ao Estado, sem sanção pecuniária. O gabinete do Advocate General (a advocacia do Estado) deve verificar toda citação antes do protocolo.",
+          "destaque": true
+        },
+        {
+          "t": "No mérito",
+          "d": "Demissão e decisão do recurso administrativo anuladas, com reintegração imediata."
+        }
+      ],
+      "ressalva": "O uso de IA é inferência do juiz, não admissão do Estado. A referência não foi conferida em repertório, nem a cópia no portal do tribunal.",
+      "fonte": "WP 27922/2024, 2026:MPHC-JBP:91141, juiz Vivek Kumar Singh. PDF no database Charlotin, não no portal oficial.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Sua conferência *abre o julgado citado?*",
+      "pontos": [
+        {
+          "t": "Referência válida não basta",
+          "d": "Segundo o juiz, a referência existe, mas é de outro julgado. Conferir só volume e página não detectaria o erro."
+        },
+        {
+          "t": "Peça sob juramento",
+          "d": "A resposta do Estado foi juramentada em affidavit, a declaração sob juramento. A advertência recaiu sobre o próprio Estado."
+        },
+        {
+          "t": "E na prática brasileira?",
+          "d": "A decisão é indiana. A leitura para cá é inferência: abrir cada julgado citado e conferir nome, referência e tema."
+        }
+      ],
+      "envio": "Envie a quem atua em advocacia pública"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*87* itens triados. *3* entregues.",
+      "texto": "Hoje: Estado indiano advertido por citar julgado que não existe. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "Na Índia, o Estado de Madhya Pradesh citou em juízo, em resposta firmada sob juramento, um julgado que não existe. Em 17/11/2026, o juiz Vivek Kumar Singh registrou que o nome do caso foi fabricado e que a referência de repertório pertence a outro julgado, sobre suspensão de pena. Concluiu que houve uso cego de ferramentas de IA, advertiu o Estado e mandou verificar toda citação antes do protocolo.\n\nO uso de IA é inferência do juiz, não admissão do Estado. A correspondência da referência não foi conferida em repertório, e a decisão foi lida em cópia hospedada em banco de dados de terceiro, não no portal do tribunal. Não houve sanção pecuniária.\n\nInteressa a quem peticiona: conferir só se a referência existe não detectaria esse erro. A decisão é indiana, e a leitura para a prática brasileira é inferência.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #alucinacaodeia #advocaciapublica #inteligenciaartificial #advocacia"
+}
