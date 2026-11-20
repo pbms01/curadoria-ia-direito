@@ -1,0 +1,91 @@
+{
+  "template": "v3",
+  "formato": "reel 1080x1920 30fps",
+  "voz": "pt_BR-cadu-medium@e929968c3761",
+  "length_scale": 0.95,
+  "duracao_s": 55.36,
+  "slides": [
+    {
+      "slide": 1,
+      "inicio": 0.0,
+      "fala_inicio": 0.15,
+      "fala_fim": 7.53,
+      "fim": 7.98,
+      "palavras": 21
+    },
+    {
+      "slide": 2,
+      "inicio": 7.98,
+      "fala_inicio": 8.28,
+      "fala_fim": 15.4,
+      "fim": 15.85,
+      "palavras": 22
+    },
+    {
+      "slide": 3,
+      "inicio": 15.85,
+      "fala_inicio": 16.15,
+      "fala_fim": 23.02,
+      "fim": 23.47,
+      "palavras": 17
+    },
+    {
+      "slide": 4,
+      "inicio": 23.47,
+      "fala_inicio": 23.77,
+      "fala_fim": 35.97,
+      "fim": 36.42,
+      "palavras": 31
+    },
+    {
+      "slide": 5,
+      "inicio": 36.42,
+      "fala_inicio": 36.72,
+      "fala_fim": 44.98,
+      "fim": 45.43,
+      "palavras": 25
+    },
+    {
+      "slide": 6,
+      "inicio": 45.43,
+      "fala_inicio": 45.73,
+      "fala_fim": 53.76,
+      "fim": 55.36,
+      "palavras": 22
+    }
+  ],
+  "bytes": 3922688,
+  "sha256": "b83db92fe0adc734d1822c738a1506a39742cddaf2caf32b6c69579a8815cd6b",
+  "conferencia_fala": [
+    {
+      "slide": 1,
+      "ouvido": "Na Índia, o Estado citou em juiz um julgado que não existe.  E o juiz apontou o uso cego de inteligência artificial.",
+      "distancia": 0.095
+    },
+    {
+      "slide": 2,
+      "ouvido": "O detalhe, o nome do caso foi inventado, mas a referência é real e leva ao outro julgado, sobre suspensão de pena.",
+      "distancia": 0.045
+    },
+    {
+      "slide": 3,
+      "ouvido": "Era defesa da demissão de um subinspetor, feita sem inquérito disciplinar, numa resposta  firmada a sob juramento.",
+      "distancia": 0.118
+    },
+    {
+      "slide": 4,
+      "ouvido": "O juiz advertiu o Estado, sem multa, mandou conferir toda a citação antes do protocolo  e anulou a demissão.  Resalva.  O uso de inteligência artificial é conclusão do juiz, não admissão do Estado.",
+      "distancia": 0.062
+    },
+    {
+      "slide": 5,
+      "ouvido": "A leitura para o Brasil é inferência, mas o alerta é prático, conferir só se a referência  existe não basta.  É preciso abrir o julgado.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 6,
+      "ouvido": "Esta é uma das três notícias da Curadoria de hoje.  As outras duas estão no grupo premium.  O link está nos comentários.",
+      "distancia": 0.0
+    }
+  ]
+}

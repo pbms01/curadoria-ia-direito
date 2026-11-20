@@ -137,6 +137,12 @@ p+p{margin-top:30px}
 .autor img{width:124px;height:124px;border-radius:50%;object-fit:cover;border:4px solid var(--txt)}
 .autor .h{font-family:"Inter Tight",sans-serif;font-weight:700;font-size:36px;color:var(--lar)}
 .autor .r{font-size:26px;color:var(--txt3);margin-top:6px}
+/* formato reel (9:16, usado pelo reel.py): mesma largura e quase a mesma area
+   util do carrossel (1200px contra 1190px), para que o texto que coube no
+   carrossel caiba igual no video. As margens ficam livres da interface do
+   Reels (cabecalho no topo; perfil, legenda e audio embaixo) e o miolo
+   sobrevive ao recorte 3:4 da grade do perfil (y de 240 a 1680) */
+body.reel .slide{height:1920px;padding:250px 88px 470px}
 """
 
 
@@ -182,7 +188,7 @@ def corpo_slide(s: dict) -> str:
     raise ValueError(f"tipo de slide desconhecido: {tipo}")
 
 
-def montar_html(post: dict) -> str:
+def montar_html(post: dict, reel: bool = False) -> str:
     slides = post["slides"]
     total = len(slides)
     partes = []
@@ -195,7 +201,8 @@ def montar_html(post: dict) -> str:
             classes += " claro"
         if s["tipo"] == "capa" and not s.get("subtitulo"):
             classes += " semsub"
-        base_dir = "" if ultimo else '<span class="seta">arraste →</span>'
+        # no video nao ha o que arrastar: a seta so existe no carrossel
+        base_dir = "" if ultimo or reel else '<span class="seta">arraste →</span>'
         # deixa de envio: o envio por DM e o sinal de descoberta; no slide que a
         # traz, ela ocupa o lugar do handle (que ja aparece no CTA e no perfil)
         base_esq = f'<span class="envio">{fmt(s["envio"])}</span>' if s.get("envio") else f"<span>{HANDLE}</span>"
@@ -204,7 +211,8 @@ def montar_html(post: dict) -> str:
             f'<div class="topo"><span><span class="marca">{MARCA}</span><span class="desde"> · {DESDE}</span></span><span class="num">{i:02d}/{total:02d}</span></div>'
             f'<div class="corpo">{corpo_slide(s)}</div>'
             f'<div class="base">{base_esq}{base_dir}</div></section>')
-    return f'<!doctype html><html lang="pt-BR"><meta charset="utf-8"><style>{CSS.replace("__RAIZ__", RAIZ.as_uri())}</style><body>{"".join(partes)}</body></html>'
+    corpo_cls = ' class="reel"' if reel else ""
+    return f'<!doctype html><html lang="pt-BR"><meta charset="utf-8"><style>{CSS.replace("__RAIZ__", RAIZ.as_uri())}</style><body{corpo_cls}>{"".join(partes)}</body></html>'
 
 
 def main() -> int:
