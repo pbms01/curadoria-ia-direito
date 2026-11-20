@@ -1,6 +1,6 @@
 {
   "_nota": "Configuracao declarada das tarefas agendadas da curadoria. O prompt de cada tarefa e o arquivo indicado em 'prompt', copiado literalmente. Ao editar uma tarefa em claude.ai/code/routines, atualize este arquivo e o prompt no mesmo commit.",
-  "atualizado_em": "2026-11-11",
+  "atualizado_em": "2026-11-20",
   "tarefas": [
     {
       "papel": "nuvem, fonte da verdade (em paralelo com a local ate o corte)",
@@ -36,7 +36,7 @@
       "criada_em": "2026-09-24"
     },
     {
-      "papel": "nuvem, prepara o post diario do Instagram a partir da curadoria e publica so apos aprovacao na sessao",
+      "papel": "nuvem, prepara o post diario do Instagram (carrossel e reel narrado) a partir da curadoria e publica so apos aprovacao na sessao",
       "nome": "Post Instagram curadoria",
       "id": "trig_01Qf9tVPsZjbqAB48Bt95KH2",
       "cron": "CRON_TZ=America/Sao_Paulo 7 6 * * *",
@@ -46,18 +46,35 @@
       "requer_computador": false,
       "repositorio": "pbms01/curadoria-ia-direito",
       "entrada": "curadorias/curadoria-ia-direito_AAAA-MM-DD.md",
-      "saida": "instagram/posts/AAAA-MM-DD/ (post.json, slide-01..05.jpg, legenda.txt, publicado.json)",
+      "saida": "instagram/posts/AAAA-MM-DD/ (post.json, slide-01..06.jpg, legenda.txt, render.json, reel.mp4, legenda-reel.txt, reel.json, publicado.json)",
       "prompt": "prompt/instagram-nuvem.md",
-      "conectores_usados_pelo_prompt": ["Zapier (Instagram for Business, conta 17841420480513479)"],
-      "conectores_alvo": ["Zapier"],
-      "dependencias_externas": "ManyChat (comentario 'eu quero' -> DM com o link do grupo), configurado fora deste repositorio",
-      "criada_em": "2026-11-11"
+      "conectores_usados_pelo_prompt": [
+        "Zapier (Instagram for Business, conta 17841420480513479: Publish Photo(s) para o carrossel; Make API Mutating/GET Request para container, media_publish e comentarios)"
+      ],
+      "conectores_alvo": [
+        "Zapier"
+      ],
+      "dependencias_externas": "Hugging Face (voz Piper pt_BR-cadu-medium em revisao fixa e modelo Whisper small da conferencia da fala, baixados em cada ambiente novo); raw.githubusercontent.com como origem publica dos slides e do reel. O convite ao grupo vai em comentario no proprio post (ManyChat dispensado)",
+      "criada_em": "2026-11-11",
+      "versao_prompt": "instagram v4 (2026-11-20: reel narrado com voz sintetica, publicado pela Graph API com is_ai_generated)"
     }
   ],
   "conectores_anexados_por_padrao_em_2026-10-16": [
-    "Gmail", "Notion", "Zapier", "Codex", "Claude_Docs", "Google_Calendar",
-    "Scholar_Gateway", "Google_Drive", "Figma", "Exa", "Hugging_Face",
-    "Claude_Code_Remote", "Cloudflare_Developer_Platform", "Gamma", "Vercel"
+    "Gmail",
+    "Notion",
+    "Zapier",
+    "Codex",
+    "Claude_Docs",
+    "Google_Calendar",
+    "Scholar_Gateway",
+    "Google_Drive",
+    "Figma",
+    "Exa",
+    "Hugging_Face",
+    "Claude_Code_Remote",
+    "Cloudflare_Developer_Platform",
+    "Gamma",
+    "Vercel"
   ],
   "_nota_conectores": "As duas tarefas receberam todos os conectores da conta por padrao, com aprovacao automatica, embora o prompt nao use nenhum. Como a coleta ingere conteudo nao confiavel (RSS, X, Reddit, HN), o alvo e zero conectores. A remocao e feita no formulario de edicao da tarefa em claude.ai/code/routines."
 }

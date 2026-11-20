@@ -398,6 +398,16 @@ def main() -> int:
                 print(f"ERRO: {p}")
             return 3
 
+        # folha de quadros fora do repositorio, para o agente conferir o layout
+        # com uma unica leitura de imagem
+        folha = Path(tempfile.gettempdir()) / f"reel-quadros-{pasta.name}.jpg"
+        n = len(blocos)
+        entradas = sum((["-i", str(tmp / f"q{i:02d}.png")] for i in range(1, n + 1)), [])
+        escala = ";".join(f"[{i}:v]scale=300:-1[e{i}]" for i in range(n))
+        subprocess.run([ffmpeg_bin(), "-y", "-v", "error", *entradas, "-filter_complex",
+                        escala + ";" + "".join(f"[e{i}]" for i in range(n)) + f"hstack=inputs={n}",
+                        "-frames:v", "1", "-q:v", "3", str(folha)], check=False)
+
         conferencia = None
         if args.conferir:
             try:
@@ -414,6 +424,8 @@ def main() -> int:
     }, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"OK: reel de {total:.1f}s ({saida.stat().st_size / 1e6:.1f} MB) em {saida}")
+    if folha.exists():
+        print(f"quadros: {folha}")
     if isinstance(conferencia, list):
         for c in conferencia:
             marca = "  << reescreva este trecho" if c["distancia"] > LIMIAR_CONFERENCIA else ""
