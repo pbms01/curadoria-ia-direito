@@ -42,15 +42,16 @@ from render import LIMITE_LEGENDA, TEMPLATE, montar_html  # noqa: E402
 
 LARGURA, ALTURA = 1080, 1920
 FPS = 30
-TRANSICAO = 0.25        # fusao curta entre slides
-ENTRADA_PRIMEIRO = 0.15  # o gancho comeca quase de imediato
-ENTRADA = 0.30          # maior que TRANSICAO: a fala so comeca com o slide novo inteiro na tela
-SAIDA = 0.45
-SAIDA_ULTIMO = 1.6      # o CTA fica na tela depois da ultima palavra
-PAUSA_FRASE = 0.14
+# cadencia apertada em 2026-11-21, a pedido: menos ar entre slides e frases
+TRANSICAO = 0.15        # fusao curta entre slides
+ENTRADA_PRIMEIRO = 0.05  # o gancho comeca de imediato
+ENTRADA = 0.18          # maior que TRANSICAO: a fala so comeca com o slide novo inteiro na tela
+SAIDA = 0.15
+SAIDA_ULTIMO = 1.0      # o CTA fica na tela depois da ultima palavra
+PAUSA_FRASE = 0.06
 DURACAO_MIN, DURACAO_MAX = 15.0, 90.0
 PALAVRAS_TRECHO_MAX = 45
-PALAVRAS_TOTAL = (70, 145)  # ~165 palavras/min: 145 palavras dao cerca de 55 s
+PALAVRAS_TOTAL = (70, 145)  # ~170 palavras/min: 145 palavras dao cerca de 53 s
 LIMIAR_CONFERENCIA = 0.30  # distancia por trecho acima da qual o agente reescreve
 
 VOZ = {
@@ -63,8 +64,10 @@ VOZ = {
         ".onnx.json": "28c27ae86debf5e304176c5be533bbb3a483e456f42272eeb7dbfede48dae741",
     },
     # escolhida entre as tres vozes medium pt_BR por menor erro de transcricao
-    # (Whisper) no mesmo texto juridico, em 2026-11-20; 0.95 = ~165 palavras/min
-    "length_scale": 0.95,
+    # (Whisper) no mesmo texto juridico, em 2026-11-20. Velocidade medida em
+    # 2026-11-21 sobre a narracao daquele dia: 0.95 = 144 palavras/min,
+    # 0.80 = 163, 0.75 = 170, todas com a mesma inteligibilidade no Whisper
+    "length_scale": 0.75,
 }
 AVISO_VOZ = "Narração em voz sintética."
 
