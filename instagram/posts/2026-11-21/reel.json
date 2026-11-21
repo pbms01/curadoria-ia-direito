@@ -2,70 +2,70 @@
   "template": "v3",
   "formato": "reel 1080x1920 30fps",
   "voz": "pt_BR-cadu-medium@e929968c3761",
-  "length_scale": 0.95,
-  "duracao_s": 58.66,
+  "length_scale": 0.75,
+  "duracao_s": 47.39,
   "slides": [
     {
       "slide": 1,
       "inicio": 0.0,
-      "fala_inicio": 0.15,
-      "fala_fim": 6.72,
-      "fim": 7.17,
+      "fala_inicio": 0.05,
+      "fala_fim": 5.56,
+      "fim": 5.71,
       "palavras": 17
     },
     {
       "slide": 2,
-      "inicio": 7.17,
-      "fala_inicio": 7.47,
-      "fala_fim": 14.43,
-      "fim": 14.88,
+      "inicio": 5.71,
+      "fala_inicio": 5.89,
+      "fala_fim": 11.79,
+      "fim": 11.94,
       "palavras": 18
     },
     {
       "slide": 3,
-      "inicio": 14.88,
-      "fala_inicio": 15.18,
-      "fala_fim": 25.79,
-      "fim": 26.24,
+      "inicio": 11.94,
+      "fala_inicio": 12.12,
+      "fala_fim": 21.1,
+      "fim": 21.25,
       "palavras": 25
     },
     {
       "slide": 4,
-      "inicio": 26.24,
-      "fala_inicio": 26.54,
-      "fala_fim": 37.95,
-      "fim": 38.4,
+      "inicio": 21.25,
+      "fala_inicio": 21.43,
+      "fala_fim": 30.92,
+      "fim": 31.07,
       "palavras": 25
     },
     {
       "slide": 5,
-      "inicio": 38.4,
-      "fala_inicio": 38.7,
-      "fala_fim": 48.32,
-      "fim": 48.77,
+      "inicio": 31.07,
+      "fala_inicio": 31.25,
+      "fala_fim": 39.34,
+      "fim": 39.49,
       "palavras": 21
     },
     {
       "slide": 6,
-      "inicio": 48.77,
-      "fala_inicio": 49.07,
-      "fala_fim": 57.06,
-      "fim": 58.66,
+      "inicio": 39.49,
+      "fala_inicio": 39.67,
+      "fala_fim": 46.39,
+      "fim": 47.39,
       "palavras": 22
     }
   ],
-  "bytes": 4184640,
-  "sha256": "e08877c4175a45f76deb9338b3633c001e57e19a16a5285d84bd175401b08d31",
+  "bytes": 3360294,
+  "sha256": "963955efdbec2a356936454dad6badd9662e4d8e0fac1611c3d20645dc0fcc3e",
   "conferencia_fala": [
     {
       "slide": 1,
-      "ouvido": "A OAB do Rio regulou as empresas de tecnologia jurídica e a punição recai sobre o advogado.",
+      "ouvido": "A OAB do Rio regulou as empresas de tecnologia jurídica  e a punição recai sobre o advogado.",
       "distancia": 0.0
     },
     {
       "slide": 2,
-      "ouvido": "Vender tecnologia e serviço judídico por preço único é indício de intermediação irregular,  seja qual for o contrato.",
-      "distancia": 0.056
+      "ouvido": "Vender tecnologia e serviço jurídico por preço único é indício de intermediação irregular, seja qual for o contrato.",
+      "distancia": 0.0
     },
     {
       "slide": 3,
@@ -74,13 +74,13 @@
     },
     {
       "slide": 4,
-      "ouvido": "É vedado remunerar a empresa de tecnologia pelo resultado jurídico.  Resalva, o texto integral não foi localizado.  Vedações, preço único e punição vêm de reportagem.",
-      "distancia": 0.04
+      "ouvido": "É vedado remunerar a empresa de tecnologia pelo resultado jurídico.  ReSal, o texto integral não foi localizado.  Vedações, peso único e punição vêm de reportagem.",
+      "distancia": 0.08
     },
     {
       "slide": 5,
-      "ouvido": "Segunda reportagem, o advogado responde a processo disciplinar e, na reincidência, pode ser suspenso ou excluído.  Confira o seu contrato.",
-      "distancia": 0.095
+      "ouvido": "Segundo a reportagem, o advogado responde a processo disciplinar e, na reincidência, pode ser suspenso ou excluído.  Confira o seu contrato.",
+      "distancia": 0.0
     },
     {
       "slide": 6,
