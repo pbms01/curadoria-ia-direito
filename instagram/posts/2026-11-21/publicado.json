@@ -5,10 +5,20 @@
   "permalink": "https://www.instagram.com/p/DgAG-iDjNc0/",
   "comentario_link": "18194521891360821",
   "reel": {
+    "publicado_em": "2026-11-21T11:20:34-03:00",
+    "container": "18136368550682684",
+    "id": "17910423240656583",
+    "permalink": "https://www.instagram.com/reel/DgAbbf2FKsk/",
+    "comentario_link": "18117149849150059",
+    "commit_video": "58d4d03996af6e2a75f09dd6c89ef3e7a862f8c1"
+  },
+  "reel_substituido": {
     "publicado_em": "2026-11-21T08:23:12-03:00",
     "container": "18136353358682684",
     "id": "18087627134537220",
     "permalink": "https://www.instagram.com/reel/DgAHGYKkrto/",
-    "comentario_link": "18144101428625488"
+    "comentario_link": "18144101428625488",
+    "substituido_em": "2026-11-21T11:21:07-03:00",
+    "motivo": "regerado na cadencia nova do reel.py (346f262); apagado manualmente pelo usuario"
   }
 }
