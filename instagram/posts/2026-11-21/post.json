@@ -1,0 +1,88 @@
+{
+  "data": "2026-11-21",
+  "item_escolhido": 3,
+  "criterio": "Item 3 é norma com efeito direto na prática do advogado (critério 1), em jurisdição brasileira (critério 2) e com consequência acionável: risco disciplinar para quem contrata legaltech (critério 3). O item 1 também é sanção, mas nos EUA e com fato novo apenas processual; o item 2 é análise de risco, sem ato.",
+  "paragrafo": "A OAB-RJ publicou em 19/11/2026 a Resolução n. 616/2026, editada ad referendum do Conselho Seccional, isto é, pendente de confirmação pelo colegiado, e com efeitos imediatos. Segundo reportagem do portal Startups, a norma declara IA, automação e agentes digitais compatíveis com a advocacia (art. 7), desde que preservados independência, sigilo, responsabilidade do advogado e relação direta com o cliente. Veda que a remuneração da empresa de tecnologia dependa do resultado jurídico (success fee) e que o advogado integre estrutura em que empresa não inscrita recebe o cliente e repassa o trabalho. A venda conjunta de tecnologia e serviço jurídico por preço único é tratada como indício de intermediação irregular, qualquer que seja a forma do contrato. Para quem advoga, importa o destinatário da punição: processo ético-disciplinar e, na reincidência, suspensão ou exclusão recaem sobre o advogado. Licenciamento de software e serviços de legal operations seguem permitidos. Ressalva: o texto integral não foi localizado no site da OAB-RJ; a numeração do art. 7, a regra do preço único e o regime de punição vêm da reportagem, não da norma.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Norma · Brasil (RJ)",
+      "titulo": "OAB-RJ regula legaltechs e IA. *A punição recai sobre o advogado.*",
+      "assinatura": true,
+      "rodape": "Resolução OAB-RJ n. 616/2026 · 19/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Tecnologia e advocacia por preço único: *indício de irregularidade.*",
+      "contexto": "A Resolução 616/2026 da OAB-RJ trata a venda conjunta como indício de intermediação irregular, segundo o portal Startups, seja qual for o contrato."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "A norma",
+      "titulo": "IA permitida sob condições",
+      "blocos": [
+        "Publicada em 19/11 pela OAB-RJ, ad referendum do Conselho Seccional, ou seja, pendente de confirmação. Vale desde já.",
+        "Admite IA e agentes digitais se preservados independência, sigilo, responsabilidade do advogado e *relação direta com o cliente.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "O que muda",
+      "titulo": "O que a norma veda e *o que ela permite*",
+      "cartoes": [
+        {
+          "t": "Vedado",
+          "d": "Remunerar empresa de tecnologia conforme o resultado jurídico (success fee). E o advogado integrar estrutura em que empresa não inscrita recebe o cliente e repassa o trabalho.",
+          "destaque": true
+        },
+        {
+          "t": "Permitido",
+          "d": "Licenciamento de software e serviços de legal operations, entre outros."
+        }
+      ],
+      "ressalva": "O texto integral não foi localizado no site da OAB-RJ. Vedações, regra do preço único e punição vêm de reportagem, não da norma.",
+      "fonte": "Resolução OAB-RJ n. 616/2026, lida em reportagem do portal Startups (19/11), confirmada pela Estadão Conteúdo.",
+      "fonte_primaria": false
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Seu contrato com legaltech *expõe você?*",
+      "pontos": [
+        {
+          "t": "A punição recai no advogado",
+          "d": "Segundo a reportagem: processo ético-disciplinar e, na reincidência, suspensão ou exclusão."
+        },
+        {
+          "t": "O que conferir no contrato",
+          "d": "Pela reportagem: empresa remunerada por êxito, preço único por tecnologia e advocacia, cliente recebido por empresa não inscrita."
+        },
+        {
+          "t": "E fora do Rio?",
+          "d": "A norma é da seccional do Rio. Em outubro, o Conselho Federal editou a Resolução 16/2026, sobre TACs com empresas de IA jurídica."
+        }
+      ],
+      "envio": "Envie a quem atua em parceria com legaltech"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*66* itens triados. *3* entregues.",
+      "texto": "Hoje: OAB-RJ regula legaltechs e IA, com punição ao advogado. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "A OAB-RJ publicou em 19/11 a Resolução 616/2026. Segundo reportagem do portal Startups, a norma admite IA, automação e agentes digitais na advocacia, desde que preservados independência, sigilo, responsabilidade do advogado e relação direta com o cliente. Veda remunerar empresa de tecnologia pelo resultado jurídico e trata a venda de tecnologia e serviço jurídico por preço único como indício de intermediação irregular.\n\nRessalva: o texto integral não foi localizado no site da OAB-RJ. Vedações, regra do preço único e punição vêm da reportagem, não da norma. A resolução é ad referendum do Conselho Seccional: pende de confirmação e já produz efeitos.\n\nInteressa a quem advoga porque a punição recai sobre o advogado: processo ético-disciplinar e, na reincidência, suspensão ou exclusão. Licenciamento de software e serviços de legal operations seguem permitidos.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #oabrj #legaltech #eticanaadvocacia #advocacia",
+  "narracao": [
+    "A OAB do Rio regulou as empresas de tecnologia jurídica. E a punição recai sobre o advogado.",
+    "Vender tecnologia e serviço jurídico por preço único é indício de intermediação irregular, seja qual for o contrato.",
+    "A resolução já vale, mas ainda depende de confirmação do Conselho Seccional. Admite inteligência artificial com condições, como sigilo e relação direta com o cliente.",
+    "É vedado remunerar a empresa de tecnologia pelo resultado jurídico. Ressalva: o texto integral não foi localizado. Vedações, preço único e punição vêm de reportagem.",
+    "Segundo a reportagem, o advogado responde a processo disciplinar e, na reincidência, pode ser suspenso ou excluído. Confira o seu contrato.",
+    "Esta é uma das três notícias da curadoria de hoje. As outras duas estão no grupo Premium. O link está nos comentários."
+  ]
+}

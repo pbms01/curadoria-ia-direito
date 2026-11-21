@@ -1,0 +1,91 @@
+{
+  "template": "v3",
+  "formato": "reel 1080x1920 30fps",
+  "voz": "pt_BR-cadu-medium@e929968c3761",
+  "length_scale": 0.95,
+  "duracao_s": 58.66,
+  "slides": [
+    {
+      "slide": 1,
+      "inicio": 0.0,
+      "fala_inicio": 0.15,
+      "fala_fim": 6.72,
+      "fim": 7.17,
+      "palavras": 17
+    },
+    {
+      "slide": 2,
+      "inicio": 7.17,
+      "fala_inicio": 7.47,
+      "fala_fim": 14.43,
+      "fim": 14.88,
+      "palavras": 18
+    },
+    {
+      "slide": 3,
+      "inicio": 14.88,
+      "fala_inicio": 15.18,
+      "fala_fim": 25.79,
+      "fim": 26.24,
+      "palavras": 25
+    },
+    {
+      "slide": 4,
+      "inicio": 26.24,
+      "fala_inicio": 26.54,
+      "fala_fim": 37.95,
+      "fim": 38.4,
+      "palavras": 25
+    },
+    {
+      "slide": 5,
+      "inicio": 38.4,
+      "fala_inicio": 38.7,
+      "fala_fim": 48.32,
+      "fim": 48.77,
+      "palavras": 21
+    },
+    {
+      "slide": 6,
+      "inicio": 48.77,
+      "fala_inicio": 49.07,
+      "fala_fim": 57.06,
+      "fim": 58.66,
+      "palavras": 22
+    }
+  ],
+  "bytes": 4184640,
+  "sha256": "e08877c4175a45f76deb9338b3633c001e57e19a16a5285d84bd175401b08d31",
+  "conferencia_fala": [
+    {
+      "slide": 1,
+      "ouvido": "A OAB do Rio regulou as empresas de tecnologia jurídica e a punição recai sobre o advogado.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 2,
+      "ouvido": "Vender tecnologia e serviço judídico por preço único é indício de intermediação irregular,  seja qual for o contrato.",
+      "distancia": 0.056
+    },
+    {
+      "slide": 3,
+      "ouvido": "A resolução já vale, mas ainda depende de confirmação do conselho seccional.  Admite inteligência artificial com condições, como sigilo e relação de data com o cliente.",
+      "distancia": 0.08
+    },
+    {
+      "slide": 4,
+      "ouvido": "É vedado remunerar a empresa de tecnologia pelo resultado jurídico.  Resalva, o texto integral não foi localizado.  Vedações, preço único e punição vêm de reportagem.",
+      "distancia": 0.04
+    },
+    {
+      "slide": 5,
+      "ouvido": "Segunda reportagem, o advogado responde a processo disciplinar e, na reincidência, pode ser suspenso ou excluído.  Confira o seu contrato.",
+      "distancia": 0.095
+    },
+    {
+      "slide": 6,
+      "ouvido": "Esta é uma das três notícias da curadoria de hoje.  As outras duas estão no grupo premium.  O link está nos comentários.",
+      "distancia": 0.0
+    }
+  ]
+}
