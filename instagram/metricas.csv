@@ -1,8 +1,9 @@
-data_post,template,capa,dias_apos,curtidas,comentarios,alcance,visualizacoes,envios,salvamentos
-2026-11-11,v3,clara,3,12,0,,,,
-2026-11-12,v3,escura,3,38,3,,,,
-2026-11-13,v3,clara,3,3,0,,,,
-2026-11-14,v3,escura,3,11,0,,,,
-2026-11-15,v3,clara,3,47,1,,,,
-2026-11-16,v3,escura,4,5,0,,,,
-2026-11-17,v3,clara,3,5,0,,,,
+data_post,template,capa,dias_apos,curtidas,comentarios,alcance,visualizacoes,envios,salvamentos,reel_curtidas,reel_comentarios,reel_views
+2026-11-11,v3,clara,3,12,0,,,,,,,
+2026-11-12,v3,escura,3,38,3,,,,,,,
+2026-11-13,v3,clara,3,3,0,,,,,,,
+2026-11-14,v3,escura,3,11,0,,,,,,,
+2026-11-15,v3,clara,3,47,1,,,,,,,
+2026-11-16,v3,escura,4,5,0,,,,,,,
+2026-11-17,v3,clara,3,5,0,,,,,,,
+2026-11-18,v3,escura,3,3,0,,,,,,,
