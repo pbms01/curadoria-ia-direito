@@ -1,0 +1,91 @@
+{
+  "template": "v3",
+  "formato": "reel 1080x1920 30fps",
+  "voz": "pt_BR-cadu-medium@e929968c3761",
+  "length_scale": 0.75,
+  "duracao_s": 49.16,
+  "slides": [
+    {
+      "slide": 1,
+      "inicio": 0.0,
+      "fala_inicio": 0.05,
+      "fala_fim": 8.09,
+      "fim": 8.24,
+      "palavras": 22
+    },
+    {
+      "slide": 2,
+      "inicio": 8.24,
+      "fala_inicio": 8.42,
+      "fala_fim": 14.12,
+      "fim": 14.27,
+      "palavras": 17
+    },
+    {
+      "slide": 3,
+      "inicio": 14.27,
+      "fala_inicio": 14.45,
+      "fala_fim": 22.13,
+      "fim": 22.28,
+      "palavras": 18
+    },
+    {
+      "slide": 4,
+      "inicio": 22.28,
+      "fala_inicio": 22.46,
+      "fala_fim": 32.89,
+      "fim": 33.04,
+      "palavras": 35
+    },
+    {
+      "slide": 5,
+      "inicio": 33.04,
+      "fala_inicio": 33.22,
+      "fala_fim": 41.1,
+      "fim": 41.25,
+      "palavras": 25
+    },
+    {
+      "slide": 6,
+      "inicio": 41.25,
+      "fala_inicio": 41.43,
+      "fala_fim": 48.16,
+      "fim": 49.16,
+      "palavras": 22
+    }
+  ],
+  "bytes": 3534615,
+  "sha256": "3c97d8f4cd79eed894ec58bc8709cc9fa2f1962541872f0d4d50b70036c3b107",
+  "conferencia_fala": [
+    {
+      "slide": 1,
+      "ouvido": "A Corte Europeia de Direitos Humanos exclui uma advogada por dois anos.  O motivo, citações criadas por inteligência artificial e não conferidas.",
+      "distancia": 0.045
+    },
+    {
+      "slide": 2,
+      "ouvido": "Segundo uma das câmaras da Corte, muitos erros apareceriam numa consulta rápida à base oficial do tribunal.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 3,
+      "ouvido": "As observações traziam casos inexistentes e parágrafos fictícios atribuídos a julgados reais.  Ela admitiu ter usado inteligência artificial.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 4,
+      "ouvido": "A exclusão veio do presidente da Corte por proposta de uma câmara.  Ressalva. A fonte é o comunicado oficial, que não vincula à Corte.  A decisão não foi lida e a exclusão pode ser revista.",
+      "distancia": 0.029
+    },
+    {
+      "slide": 5,
+      "ouvido": "A sanção não foi multa, atingiu o direito de postular.  Para o Brasil, a leitura e a inferência.  Mas você confere cada citação na base oficial.",
+      "distancia": 0.08
+    },
+    {
+      "slide": 6,
+      "ouvido": "Esta é uma das três notícias da curadoria de hoje.  As outras duas estão no grupo PM1.  O link está nos comentários.",
+      "distancia": 0.045
+    }
+  ]
+}

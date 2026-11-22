@@ -1,0 +1,88 @@
+{
+  "data": "2026-11-22",
+  "item_escolhido": 1,
+  "criterio": "Único item que é sanção com efeito direto sobre a prática do advogado (critério 1): a Corte Europeia de Direitos Humanos excluiu por dois anos uma advogada por citações geradas por IA e não verificadas. Os itens 2 e 3 são preprints, um de benchmark e um de engenharia, e só venceriam se nenhum item atendesse ao critério 1.",
+  "paragrafo": "A Corte Europeia de Direitos Humanos excluiu por dois anos uma advogada romena de representar ou assistir partes perante o tribunal. A decisão é de 13/11/2026, do Presidente da Corte, por proposta de uma Câmara, e foi anunciada em comunicado oficial de 18/11. As observações que ela apresentou traziam casos inexistentes, parágrafos fictícios atribuídos a julgados reais e precedentes irrelevantes ou contrários à tese defendida. Ela admitiu ter usado ferramentas de IA. A Câmara viu um padrão de erros repetidos e substantivos e afirmou que parte das referências não passou por checagem alguma, embora muitos erros fossem detectáveis em consulta rápida ao HUDOC, a base oficial da Corte. Para quem advoga, a sanção recai sobre o direito de postular, não sobre multa. Ressalva: a fonte é o comunicado da secretaria da Corte, que declara não vincular o tribunal; a decisão não foi lida. O comunicado não identifica a advogada nem a demanda; ferramentas usadas e número de erros não foram verificados. A exclusão atinge uma das duas representantes e pode ser revista. A leitura para a prática brasileira é inferência.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Sanção · Corte Europeia",
+      "titulo": "Advogada usa IA sem conferir. *Dois anos fora da Corte Europeia.*",
+      "assinatura": true,
+      "rodape": "Comunicado ECHR 290 (2026) · 18/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Uma consulta rápida à base oficial *acharia muitos dos erros.*",
+      "contexto": "Foi o que afirmou uma Câmara da Corte Europeia de Direitos Humanos. A advogada romena que usou IA nas citações foi excluída por dois anos."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Três tipos de erro nas citações",
+      "blocos": [
+        "As observações traziam casos inexistentes, parágrafos fictícios atribuídos a julgados reais e precedentes contrários à tese.",
+        "Ela admitiu ter usado ferramentas de IA e chamou os erros de imprecisões. A Câmara viu um *padrão repetido e substantivo.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Dois anos sem representar *perante a Corte*",
+      "cartoes": [
+        {
+          "t": "A sanção",
+          "d": "O Presidente da Corte, por proposta de uma Câmara, excluiu a advogada de representar ou assistir partes por dois anos. Base: Rule 44D do Regimento.",
+          "destaque": true
+        },
+        {
+          "t": "Antes de decidir",
+          "d": "Foram ouvidos a advogada, o Governo romeno e a Ordem Nacional dos Advogados da Romênia. A Câmara registrou prejuízo à administração da justiça."
+        }
+      ],
+      "ressalva": "O comunicado declara não vincular a Corte, e a decisão não foi lida. A exclusão atinge uma das duas representantes e pode ser revista.",
+      "fonte": "Comunicado ECHR 290 (2026), do Registrar da CEDH, 18/11/2026. PDF no HUDOC. Não identifica a advogada.",
+      "fonte_primaria": false
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Você confere cada citação *na base oficial?*",
+      "pontos": [
+        {
+          "t": "A sanção não foi multa",
+          "d": "A exclusão recai sobre o direito de postular perante a Corte. Muda o cálculo de risco de quem litiga em Estrasburgo."
+        },
+        {
+          "t": "O critério da Câmara",
+          "d": "Segundo a Câmara, pesaram o padrão repetido de erros e a falta de checagem no HUDOC, a base oficial da Corte."
+        },
+        {
+          "t": "E na prática brasileira?",
+          "d": "A decisão é de corte europeia. A leitura para cá é inferência: conferir cada citação na base oficial antes do protocolo."
+        }
+      ],
+      "envio": "Envie a quem atua em cortes internacionais"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*92* itens triados. *3* entregues.",
+      "texto": "Hoje: advogada excluída da Corte Europeia por citações de IA. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "A Corte Europeia de Direitos Humanos excluiu por dois anos uma advogada romena de representar ou assistir partes perante o tribunal. As observações dela traziam casos inexistentes, parágrafos fictícios atribuídos a julgados reais e precedentes contrários à tese. Ela admitiu ter usado ferramentas de IA. A decisão é de 13/11/2026.\n\nRessalva: a fonte é o comunicado da secretaria da Corte, que declara não vincular o tribunal. A decisão não foi lida. O comunicado não identifica a advogada nem a demanda. Ferramentas e número de erros não foram verificados. A exclusão atinge uma das duas representantes e pode ser revista.\n\nInteressa a quem advoga: a sanção recai sobre o direito de postular, não sobre multa. Segundo a Câmara, muitos erros seriam detectáveis em consulta rápida à base oficial da Corte. A leitura para a prática brasileira é inferência.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #alucinacaodeia #direitoshumanos #inteligenciaartificial #advocacia",
+  "narracao": [
+    "A Corte Europeia de Direitos Humanos excluiu uma advogada por dois anos. O motivo: citações criadas por inteligência artificial e não conferidas.",
+    "Segundo uma das Câmaras da Corte, muitos erros apareceriam numa consulta rápida à base oficial do tribunal.",
+    "As observações traziam casos inexistentes e parágrafos fictícios atribuídos a julgados reais. Ela admitiu ter usado inteligência artificial.",
+    "A exclusão veio do Presidente da Corte, por proposta de uma Câmara. Ressalva: a fonte é o comunicado oficial, que não vincula a Corte. A decisão não foi lida, e a exclusão pode ser revista.",
+    "A sanção não foi multa: atingiu o direito de postular. Para o Brasil, a leitura é inferência. Mas você confere cada citação na base oficial?",
+    "Esta é uma das três notícias da curadoria de hoje. As outras duas estão no grupo Premium. O link está nos comentários."
+  ]
+}
