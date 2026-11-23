@@ -1,0 +1,91 @@
+{
+  "template": "v3",
+  "formato": "reel 1080x1920 30fps",
+  "voz": "pt_BR-cadu-medium@e929968c3761",
+  "length_scale": 0.75,
+  "duracao_s": 45.82,
+  "slides": [
+    {
+      "slide": 1,
+      "inicio": 0.0,
+      "fala_inicio": 0.05,
+      "fala_fim": 7.15,
+      "fim": 7.3,
+      "palavras": 23
+    },
+    {
+      "slide": 2,
+      "inicio": 7.3,
+      "fala_inicio": 7.48,
+      "fala_fim": 13.92,
+      "fim": 14.07,
+      "palavras": 20
+    },
+    {
+      "slide": 3,
+      "inicio": 14.07,
+      "fala_inicio": 14.25,
+      "fala_fim": 21.7,
+      "fim": 21.85,
+      "palavras": 29
+    },
+    {
+      "slide": 4,
+      "inicio": 21.85,
+      "fala_inicio": 22.03,
+      "fala_fim": 32.51,
+      "fim": 32.66,
+      "palavras": 29
+    },
+    {
+      "slide": 5,
+      "inicio": 32.66,
+      "fala_inicio": 32.84,
+      "fala_fim": 37.78,
+      "fim": 37.93,
+      "palavras": 17
+    },
+    {
+      "slide": 6,
+      "inicio": 37.93,
+      "fala_inicio": 38.11,
+      "fala_fim": 44.82,
+      "fim": 45.82,
+      "palavras": 22
+    }
+  ],
+  "bytes": 3080355,
+  "sha256": "7eda4ba572e2e971abce764959ee6fe1125a0ae44b3bf8a5713ea79947b9634c",
+  "conferencia_fala": [
+    {
+      "slide": 1,
+      "ouvido": "e se a minuta do contrato tiver um comando oculto para a inteligência artificial.  A tese parte de uma multa já aplicada pelo STJ.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 2,
+      "ouvido": "Segundo o artigo no conjur, uma linha invisível na minuta pode alterar o resumo feito pela inteligência artificial antes da leitura humana.",
+      "distancia": 0.048
+    },
+    {
+      "slide": 3,
+      "ouvido": "No STJ, o comando falhou e mesmo assim houve multa de 20 mil reais.  Para o relator, o ilícito é ocultar do leitor o que se diz à máquina.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 4,
+      "ouvido": "A proposta, cláusula de texto visível que sanciona conteúdo oculto.  Resalva. O artigo é a opinião do autor.  Nenhuma decisão citada trata de contrato e não é caso concreto relatado.",
+      "distancia": 0.103
+    },
+    {
+      "slide": 5,
+      "ouvido": "Na prática, o autor recomenda guardar o arquivo original e comparar o texto exibido com o extraído.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 6,
+      "ouvido": "Esta é uma das três notícias da curadoria de hoje.  As outras duas estão no grupo premium.  O link está nos comentários.",
+      "distancia": 0.0
+    }
+  ]
+}

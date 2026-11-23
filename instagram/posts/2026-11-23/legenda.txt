@@ -1,0 +1,9 @@
+Um artigo de opinião publicado no ConJur em 21/11/2026 leva o comando oculto para IA do processo para o contrato. Um dos pontos de partida é a 1ª Turma do STJ, que aplicou multa de R$ 20 mil em caso de petição com texto invisível, embora o comando não tenha surtido efeito: para o relator, o ilícito está em ocultar do leitor humano o que se diz à máquina. Segundo o autor, uma linha invisível na minuta pode alterar o resumo feito por IA antes da leitura humana.
+
+É opinião, não decisão. A transposição para contratos é tese do autor: nenhuma decisão citada trata de contrato e o artigo não relata caso concreto.
+
+Interessa a quem revisa minutas com apoio de IA. O autor propõe uma cláusula de texto visível, a preservação do arquivo nativo com hash e a comparação entre o texto exibido e o texto extraído.
+
+Esta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.
+
+#iajuridica #contratos #direitocivil #inteligenciaartificial #advocacia
