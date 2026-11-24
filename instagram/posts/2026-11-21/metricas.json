@@ -1,0 +1,20 @@
+{
+  "data_post": "2026-11-21",
+  "medido_em": "2026-11-24",
+  "dias_apos": 3,
+  "formato": "carrossel+reel",
+  "template": "v3",
+  "capa": "clara",
+  "curtidas": null,
+  "comentarios": null,
+  "alcance": null,
+  "visualizacoes": null,
+  "envios": null,
+  "salvamentos": null,
+  "reel_curtidas": 1,
+  "reel_comentarios": 0,
+  "reel_views": null,
+  "insights_api": "erro: objeto do carrossel inexistente na API",
+  "origem_manual": [],
+  "observacao": "Em 2026-11-24 a API respondeu, para o id do carrossel (18418018963081906), 'Unsupported get request. Object with ID does not exist, cannot be loaded due to missing permissions, or does not support this operation', e o carrossel nao aparece na listagem de midias da conta; curtidas e comentarios do carrossel ficaram null. O reel registrado em reel_substituido (18087627134537220) ainda aparece na listagem da conta, com 4 curtidas e 1 comentario, e nao entra nos campos reel_."
+}
