@@ -1,0 +1,88 @@
+{
+  "data": "2026-11-24",
+  "item_escolhido": 2,
+  "criterio": "Os itens 1 e 2 são atos judiciais (critério 1) e nenhum é de jurisdição brasileira (critério 2 não desempata); o item 3 é artigo de opinião. O item 2 vence pelo efeito direto sobre a prática do advogado e pelo risco acionável (critério 3): a ordem veda IA generativa nas peças de todas as partes, inclusive a representada por escritório de advocacia, por erro de uma só, enquanto no item 1 a sanção recaiu sobre litigante sem advogado.",
+  "paragrafo": "A Corte Federal da Austrália proibiu todas as partes de um processo de usar IA generativa para produzir texto em documentos protocolados, salvo autorização da corte. A ordem está em decisão de 20/11/2026 da juíza Perry ([2026] FCA 1774), que tratava de um pedido de sigilo. O autor, engenheiro de software que litiga sem advogado contra a Atlassian e dois colegas, apresentou manifestação com “indicações claras”, segundo a juíza, de uso de IA generativa: algumas citações estavam corretas, outras não sustentavam a tese, não existiam ou tinham outros erros. Na audiência, ele pareceu aceitar o uso. A vedação alcança também a parte representada por escritório de advocacia, embora os erros apontados estivessem na peça de uma só. Para quem advoga, o caso mostra a resposta judicial deixando de ser sanção posterior para se tornar proibição preventiva, com efeito sobre quem não errou. Ressalva: a decisão foi lida em cópia hospedada na base Charlotin, não no site oficial da corte; a ordem vale naquele processo, e qualquer leitura para o Brasil é inferência.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão judicial · Austrália",
+      "titulo": "Juíza vê IA na peça de uma parte. *E veta o uso nas peças de todas.*",
+      "assinatura": true,
+      "rodape": "[2026] FCA 1774 · 20/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Na Austrália, veto a IA em peças alcança até a parte *que não errou.*",
+      "contexto": "A Corte Federal viu sinais de IA generativa na manifestação de um autor sem advogado. A ordem vale também para a parte representada por advogados."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Engenheiro litiga contra a Atlassian",
+      "blocos": [
+        "Sem advogado, um engenheiro de software processa a empresa e dois colegas com base na lei trabalhista australiana.",
+        "Segundo a juíza, havia citações que não sustentavam a tese ou não existiam. Na audiência, *ele pareceu aceitar o uso de IA.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "IA generativa nas peças, *só com autorização*",
+      "cartoes": [
+        {
+          "t": "O que foi proibido",
+          "d": "Salvo autorização da corte, nenhuma das partes pode usar IA generativa para produzir texto em documento protocolado, inclusive declarações juramentadas.",
+          "destaque": true
+        },
+        {
+          "t": "O contexto",
+          "d": "A decisão julgava um pedido de sigilo, deferido em parte. A ordem sobre IA integra o mesmo ato."
+        }
+      ],
+      "ressalva": "Decisão lida em cópia na base Charlotin; a versão oficial não foi conferida. O uso de IA é constatação da juíza. A ordem vale só naquele processo.",
+      "fonte": "[2026] FCA 1774, juíza Perry, 20/11/2026. PDF na base Charlotin, não no site oficial.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "O erro da outra parte *pode barrar a sua IA?*",
+      "pontos": [
+        {
+          "t": "O veto alcança quem não errou",
+          "d": "Os erros apontados estavam na peça de uma só parte. A ordem vale para todas, inclusive a representada por escritório de advocacia."
+        },
+        {
+          "t": "De sanção a veto preventivo",
+          "d": "A resposta judicial deixa de ser punição posterior e passa a ser proibição de uso, com exceção só por autorização da corte."
+        },
+        {
+          "t": "E na prática brasileira?",
+          "d": "A ordem é australiana e vale naquele processo. Qualquer leitura para o Brasil é inferência."
+        }
+      ],
+      "envio": "Envie a quem atua em contencioso"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*83* itens triados. *3* entregues.",
+      "texto": "Hoje: juíza australiana veta IA nas peças de todas as partes. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "A Corte Federal da Austrália proibiu todas as partes de um processo de usar IA generativa para produzir texto em documentos protocolados, salvo autorização da corte. Segundo a juíza, a manifestação do autor, que litiga sem advogado contra a Atlassian, tinha sinais claros de IA generativa: citações que não sustentavam a tese, não existiam ou traziam outros erros. A ordem vale também para a parte representada por advogados.\n\nA decisão, de 20/11/2026, foi lida em cópia na base Charlotin; a versão oficial não foi conferida. O uso de IA é constatação da juíza, que o autor pareceu aceitar em audiência. A ordem vale naquele processo, e qualquer leitura para o Brasil é inferência.\n\nInteressa a quem atua em contencioso: a resposta judicial deixou de ser sanção posterior e passou a ser proibição preventiva, que alcança também quem não errou.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #contencioso #processocivil #inteligenciaartificial #advocacia",
+  "narracao": [
+    "Uma juíza australiana viu sinais de IA na peça de uma parte. E vetou o uso nas peças de todas.",
+    "O detalhe: os erros estavam na peça de um autor sem advogado. O veto alcança também a parte com advogados.",
+    "Ele processa a empregadora e dois colegas. Segundo a juíza, a peça tinha citações que não sustentavam a tese e outras que não existiam.",
+    "A ordem: sem autorização da corte, nenhuma parte usa IA generativa em documento protocolado. Ressalva: a decisão foi lida em cópia, não no site oficial, e vale só naquele processo.",
+    "O erro da outra parte pode barrar a ferramenta de quem advoga. A decisão é australiana. Trazer isso para o Brasil é uma inferência.",
+    "Esta é uma das três notícias da curadoria de hoje. As outras duas estão no grupo Premium. O link está nos comentários."
+  ]
+}

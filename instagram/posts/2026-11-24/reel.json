@@ -1,0 +1,91 @@
+{
+  "template": "v3",
+  "formato": "reel 1080x1920 30fps",
+  "voz": "pt_BR-cadu-medium@e929968c3761",
+  "length_scale": 0.75,
+  "duracao_s": 46.83,
+  "slides": [
+    {
+      "slide": 1,
+      "inicio": 0.0,
+      "fala_inicio": 0.05,
+      "fala_fim": 6.3,
+      "fim": 6.45,
+      "palavras": 20
+    },
+    {
+      "slide": 2,
+      "inicio": 6.45,
+      "fala_inicio": 6.63,
+      "fala_fim": 12.61,
+      "fim": 12.76,
+      "palavras": 20
+    },
+    {
+      "slide": 3,
+      "inicio": 12.76,
+      "fala_inicio": 12.94,
+      "fala_fim": 20.33,
+      "fim": 20.48,
+      "palavras": 24
+    },
+    {
+      "slide": 4,
+      "inicio": 20.48,
+      "fala_inicio": 20.66,
+      "fala_fim": 31.29,
+      "fim": 31.44,
+      "palavras": 30
+    },
+    {
+      "slide": 5,
+      "inicio": 31.44,
+      "fala_inicio": 31.62,
+      "fala_fim": 38.7,
+      "fim": 38.85,
+      "palavras": 24
+    },
+    {
+      "slide": 6,
+      "inicio": 38.85,
+      "fala_inicio": 39.03,
+      "fala_fim": 45.83,
+      "fim": 46.83,
+      "palavras": 22
+    }
+  ],
+  "bytes": 3405768,
+  "sha256": "a288e8d453dfc3cfa002ac1d12e2d96f2f6e024a70e1e3941a1792e2fc75e62d",
+  "conferencia_fala": [
+    {
+      "slide": 1,
+      "ouvido": "Uma juíza australiana viu sinais de inteligência artificial na peça de uma parte  e vetou o uso nas peças de todas.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 2,
+      "ouvido": "O detalhe, os erros estavam na peça de um autor sem advogado.  O veto alcança também a parte com advogados.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 3,
+      "ouvido": "Ele processa a empregadora e dois colegas.  Segundo a juíza, a peça tinha citações que não sustentavam a tese e outras que não existiam.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 4,
+      "ouvido": "A ordem, sem autorização da Corte, nenhuma parte usa inteligência artificial generativa  em documento protocolado.  Resalva.  A decisão foi lida em cópia, não no site oficial, e vale só naquele processo.",
+      "distancia": 0.032
+    },
+    {
+      "slide": 5,
+      "ouvido": "O erro da outra parte pode barrar a ferramenta de quem advoga.  A decisão é australiana.  Trazer isso para o Brasil é uma inferência.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 6,
+      "ouvido": "Esta é uma das três notícias da curadoria de hoje.  As outras duas estão no grupo premium.  O link está nos comentários.",
+      "distancia": 0.0
+    }
+  ]
+}
