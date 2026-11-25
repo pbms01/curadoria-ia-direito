@@ -1,0 +1,91 @@
+{
+  "template": "v3",
+  "formato": "reel 1080x1920 30fps",
+  "voz": "pt_BR-cadu-medium@e929968c3761",
+  "length_scale": 0.75,
+  "duracao_s": 47.59,
+  "slides": [
+    {
+      "slide": 1,
+      "inicio": 0.0,
+      "fala_inicio": 0.05,
+      "fala_fim": 6.5,
+      "fim": 6.65,
+      "palavras": 18
+    },
+    {
+      "slide": 2,
+      "inicio": 6.65,
+      "fala_inicio": 6.83,
+      "fala_fim": 13.48,
+      "fim": 13.63,
+      "palavras": 20
+    },
+    {
+      "slide": 3,
+      "inicio": 13.63,
+      "fala_inicio": 13.81,
+      "fala_fim": 20.1,
+      "fim": 20.25,
+      "palavras": 21
+    },
+    {
+      "slide": 4,
+      "inicio": 20.25,
+      "fala_inicio": 20.43,
+      "fala_fim": 31.47,
+      "fim": 31.62,
+      "palavras": 32
+    },
+    {
+      "slide": 5,
+      "inicio": 31.62,
+      "fala_inicio": 31.8,
+      "fala_fim": 39.56,
+      "fim": 39.71,
+      "palavras": 26
+    },
+    {
+      "slide": 6,
+      "inicio": 39.71,
+      "fala_inicio": 39.89,
+      "fala_fim": 46.59,
+      "fim": 47.59,
+      "palavras": 22
+    }
+  ],
+  "bytes": 3342348,
+  "sha256": "9cbb7356ef5f4ab20531eada19df0cdf43838aa0af1888b2978611c4ef9f1b14",
+  "conferencia_fala": [
+    {
+      "slide": 1,
+      "ouvido": "Um recurso ao STJ era apenas a transcrição de uma conversa com inteligência artificial.  A turma não conheceu.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 2,
+      "ouvido": "O detalhe, a petição começava com o pedido do advogado a própria ferramenta.  Verificar a viabilidade de recorrer ainda hoje.",
+      "distancia": 0.05
+    },
+    {
+      "slide": 3,
+      "ouvido": "É o embargos de declaração de uma empresa, num caso de despejo do Rio de Janeiro.  O Acordam não identifica a ferramenta.",
+      "distancia": 0.143
+    },
+    {
+      "slide": 4,
+      "ouvido": "Por unanimidade, a turma apicou por analogia uma súmula do Supremo sobre fundamentação  deficiente.  Não houve multa.  Resalva.  O acordão foi lido em cópia hospedada no conjur, não no portal do Tribunal.",
+      "distancia": 0.094
+    },
+    {
+      "slide": 5,
+      "ouvido": "Para o advogado, colar o chat na peça pode custar o recurso.  É decisão de uma turma.  Tratar isso como filtro geral é a leitura dessa curadoria.",
+      "distancia": 0.077
+    },
+    {
+      "slide": 6,
+      "ouvido": "Esta é uma das três notícias da curadoria de hoje.  As outras duas estão no grupo PM1.  O link está nos comentários.",
+      "distancia": 0.045
+    }
+  ]
+}

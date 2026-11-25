@@ -1,0 +1,88 @@
+{
+  "data": "2026-11-25",
+  "item_escolhido": 1,
+  "criterio": "Único item que é ato judicial com efeito direto na prática do advogado (critério 1): acórdão da Terceira Turma do STJ sobre admissibilidade de recurso. É jurisdição brasileira (critério 2) e traz risco acionável (critério 3). Os itens 2 e 3 são preprints de engenharia, que só venceriam se nenhum item atendesse ao critério 1.",
+  "paragrafo": "A Terceira Turma do STJ, por unanimidade, não conheceu de embargos de declaração cuja petição, segundo o voto do relator, ministro Ricardo Villas Bôas Cueva, era apenas a transcrição de uma conversa do advogado com uma ferramenta de IA. O texto abria com o pedido feito à ferramenta: verificar a viabilidade de opor embargos “ainda hoje” no STJ. O caso é o EDcl no REsp 2.046.822/RJ, sobre despejo, com origem no TJRJ. A Turma aplicou por analogia a Súmula 284 do STF, que trata da deficiência de fundamentação que impede compreender a controvérsia. Não houve multa nem ofício à OAB; o acórdão só adverte que a reiteração com intuito protelatório leva à multa do art. 1.026 do CPC. Para quem advoga, o risco é concreto: a transcrição do chat, sozinha, não foi aceita como razão recursal. Ressalva: o acórdão foi lido em cópia hospedada no ConJur, e a versão no portal do STJ não foi conferida; é decisão de uma Turma, e não se pesquisou se há outros julgados no mesmo sentido. A ferramenta usada não é identificada.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão judicial · Brasil",
+      "titulo": "STJ vê no recurso só a conversa com uma IA. *E não conhece.*",
+      "assinatura": true,
+      "rodape": "EDcl no REsp 2.046.822/RJ · 17/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "A petição ao STJ abria com o pedido do advogado *à própria IA.*",
+      "contexto": "Segundo o voto, os embargos eram só a transcrição da conversa com a ferramenta, aberta pelo pedido de verificar a viabilidade do recurso “ainda hoje”."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Embargos num caso de despejo",
+      "blocos": [
+        "Uma empresa opôs embargos de declaração contra acórdão em recurso especial sobre despejo, com origem no TJRJ.",
+        "Relator: ministro Ricardo Villas Bôas Cueva. O acórdão *não identifica a ferramenta de IA usada.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Por unanimidade, *embargos não conhecidos*",
+      "cartoes": [
+        {
+          "t": "O fundamento",
+          "d": "Súmula 284 do STF, por analogia: fundamentação deficiente impede compreender a controvérsia. Para a Turma, a peça só transcrevia o chat.",
+          "destaque": true
+        },
+        {
+          "t": "Sem multa",
+          "d": "Não houve multa nem ofício à OAB. O acórdão adverte que a reiteração com intuito protelatório leva à multa do art. 1.026, §§ 2º e 3º, do CPC."
+        }
+      ],
+      "ressalva": "Acórdão lido em cópia hospedada no ConJur; a versão no portal do STJ não foi conferida. Não se pesquisou se há outros julgados no mesmo sentido.",
+      "fonte": "EDcl no REsp 2.046.822/RJ, 3ª Turma do STJ. Cópia em PDF lida em conjur.com.br.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Colar o chat na peça *pode custar o recurso*",
+      "pontos": [
+        {
+          "t": "O vício é de admissibilidade",
+          "d": "O problema apontado não foi citação inventada. Foi a peça ser só a transcrição do chat, sem fundamentação compreensível."
+        },
+        {
+          "t": "Filtro, não sanção",
+          "d": "Não houve multa nem ofício à OAB. Na leitura desta curadoria, a Súmula 284 opera como filtro objetivo, sem exame de dolo."
+        },
+        {
+          "t": "Quanto pesa o julgado?",
+          "d": "É acórdão unânime de uma Turma, em um caso. Não se pesquisou se há outros julgados do STJ no mesmo sentido."
+        }
+      ],
+      "envio": "Envie a quem atua em tribunais superiores"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*60* itens triados. *3* entregues.",
+      "texto": "Hoje: STJ não conhece de recurso que só transcreve chat com IA. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "A Terceira Turma do STJ não conheceu, por unanimidade, de embargos de declaração que, segundo o voto do relator, eram apenas a transcrição de uma conversa do advogado com uma ferramenta de IA. A petição abria com o pedido feito à ferramenta: verificar a viabilidade do recurso “ainda hoje”. A Turma aplicou por analogia a Súmula 284 do STF, sobre deficiência de fundamentação.\n\nRessalva: o acórdão (EDcl no REsp 2.046.822/RJ) foi lido em cópia hospedada no ConJur; a versão no portal do STJ não foi conferida. Não houve multa nem ofício à OAB. É decisão de uma Turma, e não se pesquisou se há outros julgados no mesmo sentido.\n\nInteressa a quem atua em tribunais superiores: o problema apontado não foi citação inventada, e sim a peça sem fundamentação compreensível. Tratar a súmula como filtro objetivo é leitura desta curadoria.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #stj #processocivil #recursos #inteligenciaartificial #advocacia",
+  "narracao": [
+    "Um recurso ao STJ era apenas a transcrição de uma conversa com inteligência artificial. A Turma não conheceu.",
+    "O detalhe: a petição começava com o pedido do advogado à própria ferramenta. Verificar a viabilidade de recorrer ainda hoje.",
+    "Eram embargos de declaração de uma empresa, num caso de despejo do Rio de Janeiro. O acórdão não identifica a ferramenta.",
+    "Por unanimidade, a Turma aplicou por analogia uma súmula do Supremo sobre fundamentação deficiente. Não houve multa. Ressalva: o acórdão foi lido em cópia hospedada no ConJur, não no portal do tribunal.",
+    "Para o advogado, colar o chat na peça pode custar o recurso. É decisão de uma Turma. Tratar isso como filtro geral é leitura desta curadoria.",
+    "Esta é uma das três notícias da curadoria de hoje. As outras duas estão no grupo Premium. O link está nos comentários."
+  ]
+}
