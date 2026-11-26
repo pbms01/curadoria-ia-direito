@@ -1,0 +1,88 @@
+{
+  "data": "2026-11-26",
+  "item_escolhido": 1,
+  "criterio": "Único item que é sanção com efeito direto na prática do advogado (critério 1): suspensão profissional imposta pela Suprema Corte de Ohio, em que citações inexistentes em peça redigida com IA compõem um dos cinco casos disciplinares. Os itens 2 e 3 são preprints de engenharia, que só venceriam se nenhum item atendesse ao critério 1.",
+  "paragrafo": "A Suprema Corte de Ohio, nos EUA, suspendeu por prazo indeterminado uma advogada de Cleveland, em 24/11/2026 (Slip Opinion 2026-Ohio-4626). Um dos cinco casos disciplinares reunidos na decisão nasceu de uma ação contra a cidade de Cleveland na Justiça federal: a cidade apontou que a peça citava quatro precedentes inexistentes e trechos que não constavam das decisões citadas. Intimada a apresentar os quatro julgados, ela juntou 1.395 páginas de jurisprudência sem eles. Na audiência, ofereceu três outros casos, com nomes, anos e tribunais diferentes, e só então, indagada pelo juiz, admitiu ter usado IA na redação. O juízo federal aplicou multa de US$ 7.500. Para quem advoga, a citação inexistente deixou de ser só sanção no processo e passou a compor o fundamento de uma suspensão. Ressalva: a suspensão soma cinco casos, não só o das citações; os números vêm apenas da decisão e da matéria do próprio tribunal, sem fonte independente; dizer que a falta de franqueza pesou mais que o erro é leitura desta curadoria; a decisão é de Ohio, e trazê-la para o Brasil é inferência.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Sanção disciplinar · EUA",
+      "titulo": "Advogada cita julgados falsos. Só admite a IA ao juiz. *Suspensa.*",
+      "assinatura": true,
+      "rodape": "Slip Op. 2026-Ohio-4626 · 24/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Intimada a mostrar quatro julgados, juntou 1.395 páginas. *Nenhum estava lá.*",
+      "contexto": "Uma advogada de Cleveland (EUA) citou em juízo precedentes que não existem. O episódio integra a suspensão imposta a ela pela Suprema Corte de Ohio."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Ação federal contra Cleveland",
+      "blocos": [
+        "A cidade apontou, na peça da advogada, quatro precedentes inexistentes e trechos ausentes das decisões citadas.",
+        "Na audiência, ela trouxe três outros casos, de nomes, anos e tribunais diferentes. Só então, questionada, *admitiu ter usado IA.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Suspensão por *prazo indeterminado*",
+      "cartoes": [
+        {
+          "t": "A suspensão",
+          "d": "A Suprema Corte de Ohio suspendeu a advogada por prazo indeterminado em 24/11/2026. As citações inexistentes são um dos cinco casos da decisão.",
+          "destaque": true
+        },
+        {
+          "t": "Antes, a multa",
+          "d": "O juízo federal viu conduta frívola e deturpação do alcance de outros sete precedentes. Multa de US$ 7.500 em 2025, não paga até março de 2026."
+        }
+      ],
+      "ressalva": "A suspensão soma cinco casos, não só o das citações. Números conferidos só na decisão e na matéria do próprio tribunal, sem fonte independente.",
+      "fonte": "Slip Opinion 2026-Ohio-4626, caso 2026-0724. PDF lido em supremecourt.ohio.gov.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Pesa mais o erro ou *a falta de franqueza?*",
+      "pontos": [
+        {
+          "t": "Da multa à suspensão",
+          "d": "A citação inexistente deixou de ser só sanção no processo e passou a compor o fundamento de uma suspensão profissional."
+        },
+        {
+          "t": "O peso da franqueza",
+          "d": "Na leitura desta curadoria, o agravante decisivo foi a falta de franqueza sobre o uso de IA, não o erro em si."
+        },
+        {
+          "t": "E no Brasil?",
+          "d": "A decisão é de Ohio. Trazê-la para cá, como em política de declaração de uso de IA, é inferência."
+        }
+      ],
+      "envio": "Envie a quem atua em contencioso"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*74* itens triados. *3* entregues.",
+      "texto": "Hoje: advogada suspensa em Ohio após citar julgados inexistentes. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "A Suprema Corte de Ohio, nos EUA, suspendeu por prazo indeterminado uma advogada de Cleveland, em decisão de 24/11/2026. Em um dos casos, ela citou quatro precedentes que não existem. Intimada a apresentá-los, juntou 1.395 páginas de jurisprudência sem eles e só admitiu ter usado IA na audiência, quando o juiz perguntou.\n\nRessalva: a suspensão soma cinco casos disciplinares, não só o das citações. Os números foram conferidos apenas na decisão e na matéria do próprio tribunal, sem fonte independente.\n\nInteressa a quem peticiona: a citação inexistente deixou de ser só sanção no processo e passou a compor o fundamento de uma suspensão. Dizer que a falta de franqueza pesou mais que o erro é leitura desta curadoria. A decisão é de Ohio, e trazê-la para o Brasil é inferência.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #eticaprofissional #alucinacaodeia #inteligenciaartificial #advocacia",
+  "narracao": [
+    "Uma advogada citou julgados que não existem e só admitiu a inteligência artificial ao juiz. Ohio a suspendeu.",
+    "Intimada a mostrar os quatro julgados, ela juntou mil trezentas e noventa e cinco páginas. Nenhum estava lá.",
+    "Era uma ação contra a cidade de Cleveland. Na audiência, ela ofereceu três outros casos, de tribunais diferentes.",
+    "A Suprema Corte de Ohio suspendeu a advogada por prazo indeterminado. Ressalva: a suspensão soma cinco casos disciplinares, não só o das citações. Os números vêm só do próprio tribunal, sem fonte independente.",
+    "Para quem advoga, a citação inexistente entrou no fundamento de uma suspensão. Que a falta de franqueza pesou mais que o erro é leitura desta curadoria. Aplicar ao Brasil é inferência.",
+    "Esta é uma das três notícias da curadoria de hoje. As outras duas estão no grupo Premium. O link está nos comentários."
+  ]
+}

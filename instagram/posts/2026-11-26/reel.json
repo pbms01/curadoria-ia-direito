@@ -1,0 +1,91 @@
+{
+  "template": "v3",
+  "formato": "reel 1080x1920 30fps",
+  "voz": "pt_BR-cadu-medium@e929968c3761",
+  "length_scale": 0.75,
+  "duracao_s": 48.38,
+  "slides": [
+    {
+      "slide": 1,
+      "inicio": 0.0,
+      "fala_inicio": 0.05,
+      "fala_fim": 6.0,
+      "fim": 6.15,
+      "palavras": 18
+    },
+    {
+      "slide": 2,
+      "inicio": 6.15,
+      "fala_inicio": 6.33,
+      "fala_fim": 12.21,
+      "fim": 12.36,
+      "palavras": 18
+    },
+    {
+      "slide": 3,
+      "inicio": 12.36,
+      "fala_inicio": 12.54,
+      "fala_fim": 18.77,
+      "fim": 18.92,
+      "palavras": 18
+    },
+    {
+      "slide": 4,
+      "inicio": 18.92,
+      "fala_inicio": 19.1,
+      "fala_fim": 30.55,
+      "fim": 30.7,
+      "palavras": 33
+    },
+    {
+      "slide": 5,
+      "inicio": 30.7,
+      "fala_inicio": 30.88,
+      "fala_fim": 40.21,
+      "fim": 40.36,
+      "palavras": 31
+    },
+    {
+      "slide": 6,
+      "inicio": 40.36,
+      "fala_inicio": 40.54,
+      "fala_fim": 47.38,
+      "fim": 48.38,
+      "palavras": 22
+    }
+  ],
+  "bytes": 3535632,
+  "sha256": "78449b263f59b34a7a89063679ee8ead326ed178c8a595c403b44233f9b5b12a",
+  "conferencia_fala": [
+    {
+      "slide": 1,
+      "ouvido": "Uma advogada citou julgados que não existem e só admitiu a inteligência artificial ao juiz.  O raio a suspendeu.",
+      "distancia": 0.111
+    },
+    {
+      "slide": 2,
+      "ouvido": "Intimada a mostrar os quatro julgados, ela juntou 1.395 páginas.  Nenhum estava lá.",
+      "distancia": 0.111
+    },
+    {
+      "slide": 3,
+      "ouvido": "É uma ação contra a cidade de Cleveland.  Na audiência ela ofereceu três outros casos de tribunais diferentes.",
+      "distancia": 0.056
+    },
+    {
+      "slide": 4,
+      "ouvido": "A Suprema Corte de Orraio suspendeu a advogada por prazo indeterminado.  Ressalva, a suspensão soma cinco casos disciplinares, não só das citações.  Os números vem só do próprio Tribunal, sem fonte independente.",
+      "distancia": 0.091
+    },
+    {
+      "slide": 5,
+      "ouvido": "Parque em advoga, a citação inexistente entrou no fundamento de uma suspensão,  que a falta de franqueza pesou mais que o erro à leitura dessa curadoria.  Aplicar a Brasil é inferência.",
+      "distancia": 0.161
+    },
+    {
+      "slide": 6,
+      "ouvido": "Esta é uma das três notícias da curadoria de hoje.  As outras duas estão no grupo PM1.  O link está nos comentários.",
+      "distancia": 0.045
+    }
+  ]
+}
