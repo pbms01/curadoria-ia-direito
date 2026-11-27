@@ -1,0 +1,91 @@
+{
+  "template": "v3",
+  "formato": "reel 1080x1920 30fps",
+  "voz": "pt_BR-cadu-medium@e929968c3761",
+  "length_scale": 0.75,
+  "duracao_s": 46.83,
+  "slides": [
+    {
+      "slide": 1,
+      "inicio": 0.0,
+      "fala_inicio": 0.05,
+      "fala_fim": 6.21,
+      "fim": 6.36,
+      "palavras": 18
+    },
+    {
+      "slide": 2,
+      "inicio": 6.36,
+      "fala_inicio": 6.54,
+      "fala_fim": 11.02,
+      "fim": 11.17,
+      "palavras": 16
+    },
+    {
+      "slide": 3,
+      "inicio": 11.17,
+      "fala_inicio": 11.35,
+      "fala_fim": 17.79,
+      "fim": 17.94,
+      "palavras": 20
+    },
+    {
+      "slide": 4,
+      "inicio": 17.94,
+      "fala_inicio": 18.12,
+      "fala_fim": 30.81,
+      "fim": 30.96,
+      "palavras": 39
+    },
+    {
+      "slide": 5,
+      "inicio": 30.96,
+      "fala_inicio": 31.14,
+      "fala_fim": 38.82,
+      "fim": 38.97,
+      "palavras": 25
+    },
+    {
+      "slide": 6,
+      "inicio": 38.97,
+      "fala_inicio": 39.15,
+      "fala_fim": 45.83,
+      "fim": 46.83,
+      "palavras": 22
+    }
+  ],
+  "bytes": 3334521,
+  "sha256": "ae9ad2bd59d7b8c1a365f65e360d0acd9e6720880a5aec1ae6521e83339a83cf",
+  "conferencia_fala": [
+    {
+      "slide": 1,
+      "ouvido": "um Tribunal Federal dos Estados Unidos vai exigir revisão humana de toda peça,  com ou sem inteligência artificial.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 2,
+      "ouvido": "Não basta a fonte existir. É preciso conferir se ela sustenta o que a peça afirma.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 3,
+      "ouvido": "É regra local do décimo circuito, publicada em 20 de novembro.  Entra em vigor em 1 de janeiro de 2027.",
+      "distancia": 0.04
+    },
+    {
+      "slide": 4,
+      "ouvido": "São quatro conferências. Se as fontes existem, se as citações estão exatas, se sustentam  a tese e se a peça cumpre as regras.  Resalva. É regra de um tribunal americano, ainda sem vigência.  Trazer para o Brasil é inferência.",
+      "distancia": 0.026
+    },
+    {
+      "slide": 5,
+      "ouvido": "Para quem advoga, o risco alcança o mérito.  Renúncia da questão afetada e extinção do recurso, além de multa.  A sanção pode atingir a parte.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 6,
+      "ouvido": "Esta é uma das três notícias da coradoria de hoje.  As outras duas estão no grupo PM1.  O link está nos comentários.",
+      "distancia": 0.091
+    }
+  ]
+}

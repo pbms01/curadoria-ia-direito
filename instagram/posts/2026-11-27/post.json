@@ -1,0 +1,88 @@
+{
+  "data": "2026-11-27",
+  "item_escolhido": 2,
+  "criterio": "Os itens 1 e 2 atendem ao critério 1 (opinião judicial com ordem para o advogado se explicar; norma processual com dever e sanção) e empatam no critério 2, porque ambos são dos EUA e a transposição é inferência. Desempate pelo critério 3: a Rule 46.5 do Tenth Circuit enuncia um dever acionável, quatro verificações humanas antes do protocolo, com sanções que alcançam o mérito, enquanto no item 1 a sanção ainda não foi decidida; o item 3 é preprint.",
+  "paragrafo": "O Tenth Circuit, tribunal federal de apelação dos EUA, publicou em 20/11/2026 o texto final de suas regras locais, que entram em vigor em 1º/01/2027. A Rule 46.5(B)(4) exige que toda peça seja revisada, antes do protocolo, por um humano que tenha verificado de forma independente quatro pontos: a existência das fontes citadas, a exatidão de citações e transcrições, que cada fonte sustenta a proposição para a qual é citada e a conformidade da peça com as regras e os deveres éticos. O texto diz que essas certificações têm o mesmo efeito com ou sem uso de inteligência artificial. A Rule 46.5(C) autoriza sanção, de ofício ou a pedido, contra o signatário, a parte representada ou ambos, incluindo renúncia da questão afetada, extinção do recurso, multa e procedimento disciplinar. Para quem advoga, o padrão deixa de ser só não citar caso inexistente, e a consequência alcança o mérito. Ressalva: é regra local de um tribunal dos EUA, ainda não vigente; não é norma brasileira, e a leitura para o Brasil é inferência.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Norma · EUA",
+      "titulo": "Tribunal dos EUA exigirá revisão humana da peça. *Com ou sem IA.*",
+      "assinatura": true,
+      "rodape": "10th Cir. R. 46.5 · publicada em 20/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "Não basta a fonte existir: ela precisa *sustentar a tese.*",
+      "contexto": "Nova regra do Tenth Circuit, tribunal federal de apelação dos EUA, exige que um humano confira cada peça antes do protocolo. Vale a partir de 2027."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "A norma",
+      "titulo": "Regra local, texto final",
+      "blocos": [
+        "O Tenth Circuit publicou em 20/11/2026 o texto final de suas regras locais. A minuta ficou aberta a comentários até 18/10.",
+        "A Rule 46.5 trata da assinatura de peças e das sanções. Entra em vigor em *1º de janeiro de 2027.*"
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "O que muda",
+      "titulo": "Quatro verificações *antes do protocolo*",
+      "cartoes": [
+        {
+          "t": "Revisão humana",
+          "d": "Um humano verifica, de forma independente: se as fontes existem; se citações e transcrições são exatas; se cada fonte sustenta a tese; se a peça cumpre regras e deveres éticos.",
+          "destaque": true
+        },
+        {
+          "t": "As sanções",
+          "d": "De ofício ou a pedido, contra o signatário, a parte ou ambos. Entre elas: renúncia da questão afetada, extinção do recurso, multa e procedimento disciplinar."
+        }
+      ],
+      "ressalva": "Regra local de um tribunal dos EUA, em vigor só em 1º/01/2027. Não é norma brasileira: a leitura para o Brasil é inferência.",
+      "fonte": "10th Cir. R. 46.5(B)(4) e (C). PDF oficial lido em ca10.uscourts.gov.",
+      "fonte_primaria": true
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Sua revisão cobre *os quatro pontos?*",
+      "pontos": [
+        {
+          "t": "Existir não basta",
+          "d": "A regra exige conferir se cada fonte sustenta a proposição para a qual é citada, não só se ela existe."
+        },
+        {
+          "t": "O risco alcança o mérito",
+          "d": "As sanções incluem renúncia da questão afetada e extinção do recurso, não só multa. Podem atingir a parte representada."
+        },
+        {
+          "t": "E no Brasil?",
+          "d": "A regra é dos EUA. Tratá-la como parâmetro de verificação auditável para quem redige com IA aqui é inferência desta curadoria."
+        }
+      ],
+      "envio": "Envie a quem atua em contencioso e recursos"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*52* itens triados. *3* entregues.",
+      "texto": "Hoje: tribunal dos EUA exigirá revisão humana de toda peça. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "Um tribunal federal de apelação dos EUA, o Tenth Circuit, publicou em 20/11/2026 a regra que exige revisão humana de toda peça antes do protocolo. Quem revisa precisa verificar quatro pontos: se as fontes citadas existem, se citações e transcrições estão exatas, se cada fonte sustenta o que a peça afirma e se a peça cumpre as regras e os deveres éticos. O texto diz que isso vale com ou sem uso de IA.\n\nRessalva: é regra local de um tribunal dos EUA e só entra em vigor em 1º/01/2027. Não é norma brasileira, e a leitura para o Brasil é inferência.\n\nInteressa a quem peticiona: o padrão deixa de ser só não citar julgado inexistente. E as sanções alcançam o mérito, com renúncia da questão afetada e extinção do recurso, além de multa e procedimento disciplinar, contra o signatário, a parte ou ambos.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #advocacia #processocivil #inteligenciaartificial #eticaprofissional",
+  "narracao": [
+    "Um tribunal federal dos Estados Unidos vai exigir revisão humana de toda peça. Com ou sem inteligência artificial.",
+    "Não basta a fonte existir. É preciso conferir se ela sustenta o que a peça afirma.",
+    "É regra local do Décimo Circuito, publicada em 20 de novembro. Entra em vigor em primeiro de janeiro de 2027.",
+    "São quatro conferências: se as fontes existem, se as citações estão exatas, se sustentam a tese e se a peça cumpre as regras. Ressalva: é regra de um tribunal americano, ainda sem vigência. Trazer para o Brasil é inferência.",
+    "Para quem advoga, o risco alcança o mérito: renúncia da questão afetada e extinção do recurso, além de multa. A sanção pode atingir a parte.",
+    "Esta é uma das três notícias da curadoria de hoje. As outras duas estão no grupo Premium. O link está nos comentários."
+  ]
+}
