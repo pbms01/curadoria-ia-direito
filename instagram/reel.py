@@ -10,9 +10,10 @@ ritmo, quadros e codificacao moram aqui, fixos. Os quadros sao os mesmos
 slides do template v3, renderizados em 1080x1920 com margens livres da
 interface do Reels; cada slide fica na tela pelo tempo exato do seu trecho.
 
-Voz: Piper (offline, sem chave de API), modelo pt_BR-cadu-medium, dataset CC0,
-baixado do Hugging Face numa revisao fixa e conferido por sha256. A narracao e
-sintetica: a legenda do reel recebe o aviso e a publicacao marca is_ai_generated.
+Voz: Kokoro v1.0 (offline, sem chave de API, licenca Apache 2.0), falante
+pf_dora, sintetizada com o pacote kokoro-onnx; modelo e vozes baixados de uma
+versao fixa e conferidos por sha256. A narracao e sintetica: a legenda do reel
+recebe o aviso e a publicacao marca is_ai_generated.
 
 --conferir transcreve o audio gerado com Whisper e mede a distancia entre o que
 foi escrito e o que se ouve, trecho a trecho. O agente nao escuta o audio; esta
@@ -48,26 +49,32 @@ ENTRADA_PRIMEIRO = 0.05  # o gancho comeca de imediato
 ENTRADA = 0.18          # maior que TRANSICAO: a fala so comeca com o slide novo inteiro na tela
 SAIDA = 0.15
 SAIDA_ULTIMO = 1.0      # o CTA fica na tela depois da ultima palavra
-PAUSA_FRASE = 0.06
+PAUSA_FRASE = 0.12      # pausas pedidas ao Kokoro entre frases e entre oracoes:
+PAUSA_ORACAO = 0.05     # as da amostra aprovada em 2026-11-27
 DURACAO_MIN, DURACAO_MAX = 15.0, 90.0
 PALAVRAS_TRECHO_MAX = 45
 PALAVRAS_TOTAL = (70, 145)  # ~170 palavras/min: 145 palavras dao cerca de 53 s
 LIMIAR_CONFERENCIA = 0.30  # distancia por trecho acima da qual o agente reescreve
 
 VOZ = {
-    "nome": "pt_BR-cadu-medium",
-    "repositorio": "rhasspy/piper-voices",
-    "revisao": "e929968c3761f1c281875787685a745863db838d",
-    "caminho": "pt/pt_BR/cadu/medium",
+    "nome": "kokoro-v1.0-pf_dora",
+    "falante": "pf_dora",  # pt-BR, feminina
+    "idioma": "pt-br",
+    "origem": "https://github.com/thewh1teagle/kokoro-onnx/releases/download",
+    "revisao": "model-files-v1.0",
     "sha256": {
-        ".onnx": "d5a662e3f606d5a49dd29ba9ce90c304ae45dd9543f8b0c773bcb0de282499de",
-        ".onnx.json": "28c27ae86debf5e304176c5be533bbb3a483e456f42272eeb7dbfede48dae741",
+        "kokoro-v1.0.onnx": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+        "voices-v1.0.bin": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
     },
-    # escolhida entre as tres vozes medium pt_BR por menor erro de transcricao
-    # (Whisper) no mesmo texto juridico, em 2026-11-20. Velocidade medida em
-    # 2026-11-21 sobre a narracao daquele dia: 0.95 = 144 palavras/min,
-    # 0.80 = 163, 0.75 = 170, todas com a mesma inteligibilidade no Whisper
-    "length_scale": 0.75,
+    # trocada em 2026-11-27, a pedido, por uma voz mais acolhedora. Escolhida de
+    # ouvido pelo Pedro entre cinco amostras da mesma narracao, na mesma cadencia:
+    # Piper cadu (a anterior, pt_BR-cadu-medium com length_scale 0.75) e faber;
+    # Kokoro dora, alex e santa. Piper jeff nem foi a escuta: o Whisper perdeu ate
+    # 31% das palavras de um trecho. Nas narracoes publicadas de 22 a 26/11 (30
+    # trechos), a distancia media no Whisper ficou em 0,03 com a voz nova e 0,05
+    # com a anterior, sem trecho acima de 0,17 em nenhuma das duas.
+    # 1.073 iguala a cadencia da voz anterior, cerca de 180 palavras/min de fala
+    "velocidade": 1.073,
 }
 AVISO_VOZ = "Narração em voz sintética."
 
@@ -76,8 +83,9 @@ SIGLAS_PALAVRA = {"ONU", "OTAN", "SUS", "CADE", "PROCON", "ANATEL", "ANVISA", "A
                   "FIFA", "NASA", "RAG", "OIT", "INMETRO", "DETRAN", "FUNAI", "IBAMA", "PIX"}
 LETRAS = dict(zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",
                   "á bê cê dê é éfe gê agá i jota cá éle ême ene ó pê quê érre ésse tê u vê dáblio xis ípsilon zê".split()))
-# trocas fixas antes da sintese; testadas com a voz acima (a sigla IA, por
-# exemplo, sai como interjeicao se nao for expandida)
+# trocas fixas antes da sintese; testadas com a voz anterior (Piper cadu) e de
+# novo com a atual em 2026-11-27 (a sigla IA, por exemplo, sai como interjeicao
+# se nao for expandida)
 TROCAS = [
     (r"\bIAs\b", "inteligências artificiais"),
     (r"\bI\.?A\.?(?=[\s,.;:!?)]|$)", "inteligência artificial"),
@@ -161,27 +169,27 @@ def sha256(arq: Path) -> str:
     return h.hexdigest()
 
 
-def obter_voz() -> Path:
-    """Baixa (uma vez por ambiente) o modelo de voz na revisao fixa e confere o sha256.
+def obter_voz() -> tuple[Path, Path]:
+    """Baixa (uma vez por ambiente) o modelo e as vozes na versao fixa e confere o sha256.
 
-    Revisao fixa + hash: o modelo e codigo executado no ambiente; um arquivo
-    trocado na origem nao entra sem que o hash denuncie.
+    Versao fixa + hash: o modelo e codigo executado no ambiente; um arquivo
+    trocado na origem nao entra sem que o hash denuncie. O modelo tem cerca de
+    325 MB e as vozes, 28 MB.
     """
     cache = Path.home() / ".cache" / "curadoria-voz"
     cache.mkdir(parents=True, exist_ok=True)
-    base = (f"https://huggingface.co/{VOZ['repositorio']}/resolve/{VOZ['revisao']}/"
-            f"{VOZ['caminho']}/{VOZ['nome']}")
-    for ext, esperado in VOZ["sha256"].items():
-        destino = cache / f"{VOZ['nome']}{ext}"
+    for nome, esperado in VOZ["sha256"].items():
+        destino = cache / nome
         if not destino.exists() or sha256(destino) != esperado:
             tmp = destino.with_suffix(destino.suffix + ".part")
-            subprocess.run(["curl", "-sSfL", "--retry", "2", "--max-time", "300", "-o", str(tmp), base + ext],
-                           check=True)
+            subprocess.run(["curl", "-sSfL", "--retry", "2", "--max-time", "600", "-o", str(tmp),
+                            f"{VOZ['origem']}/{VOZ['revisao']}/{nome}"], check=True)
             if sha256(tmp) != esperado:
                 tmp.unlink(missing_ok=True)
-                raise RuntimeError(f"sha256 divergente em {VOZ['nome']}{ext}")
+                raise RuntimeError(f"sha256 divergente em {nome}")
             tmp.replace(destino)
-    return cache / f"{VOZ['nome']}.onnx"
+    modelo, vozes = (cache / nome for nome in VOZ["sha256"])
+    return modelo, vozes
 
 
 def ffmpeg_bin() -> str:
@@ -192,19 +200,28 @@ def ffmpeg_bin() -> str:
     return imageio_ffmpeg.get_ffmpeg_exe()
 
 
+def aparar_silencio(audio: np.ndarray, taxa: int) -> np.ndarray:
+    """Tira o silencio que o modelo deixa nas pontas, cerca de 0,2 s de cada lado.
+
+    Corte proprio, com margem fixa (50 ms antes da fala, 80 ms depois), em vez do
+    trim do kokoro-onnx: e o corte da amostra aprovada e nao muda com a biblioteca.
+    """
+    fala = np.flatnonzero(np.abs(audio) > 0.01)
+    if not len(fala):
+        return audio
+    return audio[max(0, fala[0] - int(0.05 * taxa)): fala[-1] + 1 + int(0.08 * taxa)]
+
+
 def sintetizar(trechos: list[str]) -> tuple[list[np.ndarray], int]:
-    from piper import PiperVoice, SynthesisConfig
-    voz = PiperVoice.load(str(obter_voz()))
-    cfg = SynthesisConfig(length_scale=VOZ["length_scale"])
+    from kokoro_onnx import Kokoro
+    modelo, vozes = obter_voz()
+    kokoro = Kokoro(str(modelo), str(vozes))
     audios, taxa = [], None
     for trecho in trechos:
-        partes = []
-        for bloco in voz.synthesize(preparar_fala(trecho), syn_config=cfg):  # um bloco por frase
-            taxa = bloco.sample_rate
-            if partes:
-                partes.append(np.zeros(int(PAUSA_FRASE * taxa), np.float32))
-            partes.append(bloco.audio_float_array.astype(np.float32).reshape(-1))
-        audios.append(np.concatenate(partes))
+        audio, taxa = kokoro.create(preparar_fala(trecho), voice=VOZ["falante"], speed=VOZ["velocidade"],
+                                    lang=VOZ["idioma"], trim=False,
+                                    sentence_pause=PAUSA_FRASE, clause_pause=PAUSA_ORACAO)
+        audios.append(aparar_silencio(np.asarray(audio, np.float32).reshape(-1), taxa))
     return audios, taxa
 
 
@@ -421,7 +438,7 @@ def main() -> int:
     (pasta / "legenda-reel.txt").write_text(legenda, encoding="utf-8")
     (pasta / "reel.json").write_text(json.dumps({
         "template": TEMPLATE, "formato": f"reel {LARGURA}x{ALTURA} {FPS}fps",
-        "voz": f"{VOZ['nome']}@{VOZ['revisao'][:12]}", "length_scale": VOZ["length_scale"],
+        "voz": f"{VOZ['nome']}@{VOZ['revisao']}", "velocidade": VOZ["velocidade"],
         "duracao_s": round(total, 2), "slides": tempos, "bytes": saida.stat().st_size,
         "sha256": sha256(saida), "conferencia_fala": conferencia,
     }, ensure_ascii=False, indent=2), encoding="utf-8")

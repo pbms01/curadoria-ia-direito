@@ -1,6 +1,6 @@
 {
   "_nota": "Configuracao declarada das tarefas agendadas da curadoria. O prompt de cada tarefa e o arquivo indicado em 'prompt', copiado literalmente. Ao editar uma tarefa em claude.ai/code/routines, atualize este arquivo e o prompt no mesmo commit.",
-  "atualizado_em": "2026-11-21",
+  "atualizado_em": "2026-11-27",
   "tarefas": [
     {
       "papel": "nuvem, fonte da verdade (em paralelo com a local ate o corte)",
@@ -54,9 +54,9 @@
       "conectores_alvo": [
         "Zapier"
       ],
-      "dependencias_externas": "Hugging Face (voz Piper pt_BR-cadu-medium em revisao fixa e modelo Whisper small da conferencia da fala, baixados em cada ambiente novo); raw.githubusercontent.com como origem publica do reel e, na reserva, dos slides. O convite ao grupo vai em comentario no proprio post (ManyChat dispensado)",
+      "dependencias_externas": "GitHub Releases (voz Kokoro v1.0, falante pf_dora, arquivos do pacote kokoro-onnx em versao fixa, conferidos por sha256) e Hugging Face (modelo Whisper small da conferencia da fala), baixados em cada ambiente novo; raw.githubusercontent.com como origem publica do reel e, na reserva, dos slides. O convite ao grupo vai em comentario no proprio post (ManyChat dispensado)",
       "criada_em": "2026-11-11",
-      "versao_prompt": "instagram v5 (2026-11-21: reel e o post do dia; carrossel so como reserva, com 'publicar carrossel', quando o reel nao e gerado ou nao sai; ERROR 2207077 tratado como transitorio no mesmo container)"
+      "versao_prompt": "instagram v6 (2026-11-27: voz do reel trocada, a pedido, de Piper pt_BR-cadu-medium para Kokoro pf_dora; a instalacao da ETAPA 3.2 passa de piper-tts para kokoro-onnx==0.6.1. No mais, igual a v5, de 2026-11-21)"
     }
   ],
   "conectores_anexados_por_padrao_em_2026-10-16": [
