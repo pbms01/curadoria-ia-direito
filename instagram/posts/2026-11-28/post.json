@@ -1,0 +1,88 @@
+{
+  "data": "2026-11-28",
+  "item_escolhido": 1,
+  "criterio": "Único item com ato judicial e sanção aplicada (critério 1), em jurisdição brasileira (critério 2) e com consequência direta para quem advoga: dever de conferir citações e definição de quem paga a multa. Os itens 2 e 3 são preprints de engenharia, sem ato com efeito na prática profissional.",
+  "paragrafo": "A 5ª Turma Cível do TJDFT manteve, por unanimidade, o reconhecimento de litigância de má-fé em uma ação indenizatória cuja réplica, segundo notícia do próprio tribunal de 24/11/2026, citava mais de dez decisões judiciais inexistentes, com números de processo, órgãos julgadores e entendimentos que nunca foram proferidos. O colegiado afirmou que o uso de inteligência artificial não afasta o dever de conferência do advogado. Mas deslocou a multa de 3% sobre o valor atualizado da causa dos advogados para a autora, por entender que a sanção por má-fé recai sobre a parte, e não diretamente sobre os procuradores nos próprios autos, e determinou ofício à OAB/DF. Para quem advoga, a decisão mostra uma mecânica de responsabilização: a multa processual fica com a parte e a conduta do advogado segue para o controle disciplinar da OAB, linha que diverge de decisões que multam o advogado diretamente. Ressalva: os dados vêm da notícia institucional; o inteiro teor do acórdão não foi localizado, e a notícia não informa se o uso de IA foi admitido ou inferido pelo colegiado.",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Decisão judicial · Brasil",
+      "titulo": "Mais de dez julgados falsos numa réplica. *A multa ficou com a parte.*",
+      "assinatura": true,
+      "rodape": "TJDFT, 5ª Turma Cível · notícia de 24/11/2026"
+    },
+    {
+      "tipo": "achado",
+      "rotulo": "O ponto central",
+      "titulo": "O TJDFT tirou dos advogados a multa por julgados falsos e *a aplicou à parte.*",
+      "contexto": "A 5ª Turma Cível manteve a litigância de má-fé por mais de dez decisões inexistentes citadas em réplica. O colegiado mandou oficiar a OAB/DF."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O caso",
+      "titulo": "Uma réplica com julgados inventados",
+      "blocos": [
+        "Uma servidora pública processou colegas da Secretaria de Saúde do DF. A ação foi extinta sem exame do mérito.",
+        "Segundo a notícia do tribunal, a réplica trazia números de processo, órgãos julgadores e *teses que nunca existiram*."
+      ]
+    },
+    {
+      "tipo": "decisao",
+      "rotulo": "A decisão",
+      "titulo": "Má-fé mantida. *A multa mudou de destinatário.*",
+      "cartoes": [
+        {
+          "t": "Multa de 3%",
+          "d": "Má-fé mantida por unanimidade. A multa, sobre o valor atualizado da causa, saiu dos advogados e ficou com a autora: para o colegiado, a sanção recai sobre a parte.",
+          "destaque": true
+        },
+        {
+          "t": "Advogados",
+          "d": "Para o colegiado, o uso de IA não afasta o dever de conferência do advogado. A conduta dos procuradores foi comunicada à OAB/DF por ofício."
+        }
+      ],
+      "ressalva": "Dados da notícia oficial do TJDFT; o acórdão não foi localizado. A notícia não diz se o uso de IA foi admitido ou inferido pelo colegiado.",
+      "fonte": "Notícia institucional do TJDFT (tjdft.jus.br), 24/11/2026. Proc. 0714843-80.2025.8.07.0001. Acórdão não lido.",
+      "fonte_primaria": false
+    },
+    {
+      "tipo": "pontos",
+      "rotulo": "Por que importa a quem advoga",
+      "titulo": "Quem confere a citação *antes do protocolo?*",
+      "pontos": [
+        {
+          "t": "O dever é do advogado",
+          "d": "Segundo o colegiado, o uso de IA não afasta o dever do advogado de conferir as decisões que cita."
+        },
+        {
+          "t": "O cliente pode pagar a multa",
+          "d": "Nesta decisão, a multa de 3% por má-fé ficou com a parte. A conduta dos advogados foi comunicada à OAB/DF."
+        },
+        {
+          "t": "Não há entendimento único",
+          "d": "Na leitura da curadoria, a decisão segue o art. 81 do CPC e diverge de julgados que multam o advogado diretamente."
+        }
+      ],
+      "envio": "Envie a quem atua em contencioso cível"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Esta é 1 das *3 notícias* da curadoria de hoje.",
+      "funil": "*40* itens triados. *3* entregues.",
+      "texto": "Hoje: multa por precedentes falsos fica com a parte no TJDFT. As outras duas estão no grupo Premium IA Jurídica por Dentro.",
+      "passos": [
+        "O link do grupo está nos *comentários*"
+      ],
+      "rodape": "Curadoria Anti-Hype por Pedro Mourão"
+    }
+  ],
+  "legenda": "Uma réplica com mais de dez decisões judiciais que não existem. A 5ª Turma Cível do TJDFT manteve, por unanimidade, a litigância de má-fé e a multa de 3% sobre o valor atualizado da causa. Mas mudou quem paga: a multa saiu dos advogados e ficou com a autora. Para o colegiado, a sanção recai sobre a parte. A conduta dos advogados foi comunicada à OAB/DF.\n\nRessalva: os dados vêm da notícia institucional do tribunal, de 24/11/2026. O acórdão não foi localizado, e a notícia não informa se o uso de IA foi admitido ou inferido pelo colegiado.\n\nPara quem advoga, o colegiado afirmou que usar IA não afasta o dever de conferir o que se cita. E a citação não conferida pode custar ao cliente no processo e levar o advogado à OAB. Há decisões que multam o advogado diretamente; esta seguiu outro caminho.\n\nEsta é 1 das 3 notícias da curadoria de hoje. As outras duas estão no grupo Premium IA Jurídica por Dentro. O link de convite está nos comentários deste post.\n\n#iajuridica #litiganciademafe #processocivil #advocacia #inteligenciaartificial",
+  "narracao": [
+    "Mais de dez decisões inexistentes numa réplica. O Tribunal de Justiça do Distrito Federal manteve a multa, mas mudou quem paga.",
+    "A multa saiu dos advogados e ficou com a autora. A conduta deles foi comunicada à Ordem dos Advogados.",
+    "Numa ação de indenização, a réplica trazia números de processo, órgãos julgadores e entendimentos que nunca existiram, segundo a notícia do tribunal.",
+    "A má-fé foi mantida por unanimidade. Ressalva: os dados vêm da notícia do tribunal. O acórdão não foi localizado, e a notícia não informa se o uso de IA foi admitido ou inferido.",
+    "Para o colegiado, usar inteligência artificial não afasta o dever de conferência do advogado. E há decisões que multam o advogado diretamente.",
+    "Esta é uma das três notícias da curadoria de hoje. As outras duas estão no grupo Premium. O link está nos comentários."
+  ]
+}

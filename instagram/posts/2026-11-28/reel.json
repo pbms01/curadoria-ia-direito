@@ -1,0 +1,91 @@
+{
+  "template": "v3",
+  "formato": "reel 1080x1920 30fps",
+  "voz": "pt_BR-cadu-medium@e929968c3761",
+  "length_scale": 0.75,
+  "duracao_s": 47.77,
+  "slides": [
+    {
+      "slide": 1,
+      "inicio": 0.0,
+      "fala_inicio": 0.05,
+      "fala_fim": 7.13,
+      "fim": 7.28,
+      "palavras": 21
+    },
+    {
+      "slide": 2,
+      "inicio": 7.28,
+      "fala_inicio": 7.46,
+      "fala_fim": 13.18,
+      "fim": 13.33,
+      "palavras": 19
+    },
+    {
+      "slide": 3,
+      "inicio": 13.33,
+      "fala_inicio": 13.51,
+      "fala_fim": 21.02,
+      "fim": 21.17,
+      "palavras": 22
+    },
+    {
+      "slide": 4,
+      "inicio": 21.17,
+      "fala_inicio": 21.35,
+      "fala_fim": 32.07,
+      "fim": 32.22,
+      "palavras": 33
+    },
+    {
+      "slide": 5,
+      "inicio": 32.22,
+      "fala_inicio": 32.4,
+      "fala_fim": 39.69,
+      "fim": 39.84,
+      "palavras": 22
+    },
+    {
+      "slide": 6,
+      "inicio": 39.84,
+      "fala_inicio": 40.02,
+      "fala_fim": 46.77,
+      "fim": 47.77,
+      "palavras": 22
+    }
+  ],
+  "bytes": 3385869,
+  "sha256": "89d9f2177cd35cac675bbd512f7e99d896a2ed6374ce68278bd76bcd3f88cf16",
+  "conferencia_fala": [
+    {
+      "slide": 1,
+      "ouvido": "mais de dez decisões inexistentes numa réplica.  O Tribunal de Justiça do Distrito Federal manteve a multa, mas mudou quem paga.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 2,
+      "ouvido": "A multa saiu dos advogados e ficou com a autora.  A conduta deles foi comunicada à ordem dos advogados.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 3,
+      "ouvido": "Numa ação de indenização, a réplica trazia números de processo, órgãos, jogadores  e entendimentos que nunca existiram, segundo a notícia do tribunal.",
+      "distancia": 0.045
+    },
+    {
+      "slide": 4,
+      "ouvido": "A Mafé foi mantida por unanimidade.  Resalva. Os dados vêm da notícia do tribunal.  O acordo não foi localizado e a notícia não informa se o uso de inteligência artificial foi admitido ou inferido.",
+      "distancia": 0.114
+    },
+    {
+      "slide": 5,
+      "ouvido": "Para o colegiado, usar inteligência artificial não afasta o dever de conferência do advogado,  e há decisões que multam o advogado diretamente.",
+      "distancia": 0.0
+    },
+    {
+      "slide": 6,
+      "ouvido": "Esta é uma das três notícias da curadoria de hoje.  As outras duas estão no grupo Premium.  O link está nos comentários.",
+      "distancia": 0.0
+    }
+  ]
+}
